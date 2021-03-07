@@ -1,0 +1,26 @@
+.header{
+    background: #FF534B;
+    padding: 0;
+    margin: 0;
+}
+.nav {
+    display: flex;
+}
+.brand{
+    margin-top: 20px;
+}
+.list{
+    display: flex;
+    text-decoration: none;
+    margin-left: 500px;
+    cursor: pointer;
+}
+.list li{
+    list-style: none;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 18px;
+
+}

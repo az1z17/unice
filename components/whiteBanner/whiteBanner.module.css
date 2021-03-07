@@ -1,0 +1,96 @@
+.app{
+    display: flex;
+    padding-left: 13%;
+    padding-top: 70px;
+}
+.imgPage img{
+    /* position: absolute; */
+    width: 355px;
+    /* right: 0; */
+    
+}
+.textPage{
+    padding-left: 10px;
+}
+.textPage h6{
+    position: relative;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-left: 60px;
+    margin-bottom: 25px;
+    color: #fd6f64;
+    font-size: 14px;
+    padding-top: 80px;
+    text-transform: uppercase;
+}
+.textPage h3{
+    font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1920 - 300)));
+    margin-top: 0;
+    line-height: 0.8;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin-bottom:  50px;
+    color: #434345;
+}
+.textPage p {
+    margin-bottom: 35px;
+    letter-spacing: 0;
+    color: #949494;
+    font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
+    font-weight: 400;
+    margin-top: -7px;
+    line-height: 1.8;
+}
+.list{
+    display: flex;
+    padding-left: 0;
+}
+.list li{
+    list-style: none;
+}
+.iconAbout {
+    margin-left: 0;
+    margin: 0 18px;
+    filter: drop-shadow(0 0 10px #eee);
+    border-radius: 20px;
+    background-color: #fff;
+    transition: 0.5s;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 14px;
+   
+}
+.iconAbout a{
+    padding: 18px 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+.btn:hover{
+    transition: all 0.4s ease-in-out;
+    color: #fff !important;
+    background-position: 100% 0;
+    text-decoration: none;
+}
+.btn{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border: transparent;
+    position: relative;
+    color: #fff;
+    background-color: #FF534B;
+    background-size: 300% 100%;
+    border-radius: 40px;
+    position: relative;
+    top: 40px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 1.5;
+    user-select: none;
+    background-image: linear-gradient(to right,#F66E54,#F66E54,#F66E54,#F66E54);
+}

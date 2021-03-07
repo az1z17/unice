@@ -1,0 +1,158 @@
+.logo{
+    text-align: center;
+    margin-top: 80px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.title span::before{
+    right: 100%;
+    margin-right: 15px;
+    content: "";
+    position: absolute;
+    border-top: 2px solid #f5f5f8;
+    width: 85px;
+    transform: translate(0, -50%);
+    top: 50%;
+    box-sizing: border-box;
+}
+.title span::after{
+    left: 100%;
+    margin-left: 15px;
+    content: "";
+    position: absolute;
+    width: 85px;
+    border-top: 2px solid #f5f5f8;
+    top: 50%;
+    box-sizing: border-box;
+}
+.title span{
+    display: inline-block;
+    position: relative;
+}
+.title h6{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fd6d64;
+    text-transform: uppercase; 
+    font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
+
+}
+.textCenter h2{
+    font-size: calc(18px + (30 - 18) * ((100vw - 300px) / (1920 - 300)));
+    color: #434345;
+    margin-top: -1px;
+    margin-bottom: -14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center !important;
+    line-height: 0.9;
+}
+.row{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.cardOrange {
+    background: linear-gradient(#F66E54, #FF534B);
+    font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1920 - 300)));
+    margin-top: 0;
+    line-height: 0.8;
+    text-transform: capitalize;
+    color: #fff;
+}
+.cardH
+{
+    border-radius: 15px;
+    filter: drop-shadow(0 0 6px #efecec);
+    background: #fff;
+    border: none;
+    overflow: hidden;
+    text-align: center !important;
+    margin-right: 30px;
+}
+.cardTitle{
+    color: #fff;
+    width: auto !important;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-align: center;
+    background: linear-gradient(#F66E54, #FF534B);
+    width: 350px !important;
+    height: 198px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.cardTitle h3{
+    font-size: calc(18px + (26 - 18) * ((100vw - 300px) / (1920 - 300)));
+    margin-top: 0;
+    line-height: 0.8;
+    font-weight: 500;
+    padding-top: 15px;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    color: #fff;
+    
+
+}
+.cardBody{
+    color: #434345;
+    margin-bottom: 15px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    line-height: 20px;
+    text-transform: capitalize;
+    margin-top: 0;
+    font-size: calc(14px + (16 - 14) * ((100vw - 300px) / (1920 - 300)));
+    text-align: center;
+}
+.cardFooter{
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+.cardFooter h6{
+    color: #434345;
+    text-transform: capitalize;
+    font-size: initial;
+    margin: -22px 0 -15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.large{
+    color: #fd6d64;
+    font-size: 55px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.btn {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    background-color: #fff;
+    border: 2px solid #fd6d64;
+    color: #fd6d64 !important;
+    font-weight: 500;
+    font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    cursor: pointer;
+    user-select: none;
+    line-height: 1.5;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+.MediumCard{
+    margin-right: 30px;
+}

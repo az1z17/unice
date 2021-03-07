@@ -1,0 +1,150 @@
+.logo{
+    text-align: center;
+    margin-top: 80px;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+}
+.title span::before{
+    right: 100%;
+    margin-right: 15px;
+    content: "";
+    position: absolute;
+    border-top: 2px solid #f5f5f8;
+    width: 85px;
+    transform: translate(0, -50%);
+    top: 50%;
+    box-sizing: border-box;
+}
+.title span::after{
+    left: 100%;
+    margin-left: 15px;
+    content: "";
+    position: absolute;
+    width: 85px;
+    border-top: 2px solid #f5f5f8;
+    top: 50%;
+    box-sizing: border-box;
+}
+.title span{
+    display: inline-block;
+    position: relative;
+}
+.title h6{
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #fd6d64;
+    text-transform: uppercase; 
+    font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
+
+}
+.textCenter h2{
+    font-size: calc(18px + (30 - 18) * ((100vw - 300px) / (1920 - 300)));
+    color: #434345;
+    margin-top: -1px;
+    margin-bottom: -14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center !important;
+    line-height: 0.9;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;    
+}
+.row img {
+    margin-right: 30px ;
+}
+.members{
+    position: relative;
+}
+.card{
+    border: 13px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 0 30px #e2e2e2;
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    margin: auto !important;
+}
+.overflow{
+    overflow: hidden;
+    position: relative;
+}
+.team{
+    height: 135px;
+    width: 135px;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+.setTeam{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transition: all 1s;
+}
+.wave{
+    transition: all 1s;
+    opacity: 0;
+    transform: translateY(20px);
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+}
+.team .wave:hover{
+    opacity: 1;
+}
+.setRelative{
+   padding-bottom: 110px;
+   position: relative;
+}
+.setAbs{
+    transition: all 1s;
+    border-right: 2px dashed #000;
+    height: 110px;
+    color: black;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    position: absolute;
+    top: 0;
+
+}
+.name{
+    color: #434345;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    line-height: 18px;
+    font-weight: 500;
+    margin-top: 0;
+    font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300)));
+}
+.post{
+    line-height: 30px;
+    transform: all 1s;
+    color: #434345;
+    letter-spacing: 1px;
+    font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-top: -4px;
+    margin-bottom: -5px;
+
+}
+.membersAll{
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.m1{
+    margin-top: 90px;
+}
