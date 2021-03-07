@@ -100,3 +100,9 @@
     vertical-align: middle;
     border-style: none;
 }
+
+@media (max-width:576px){
+    .card{
+        display: inline-block;
+    }
+}

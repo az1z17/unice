@@ -24,3 +24,12 @@
     padding: 18px;
 
 }
+
+
+/*  */
+@media (max-width:576px) {
+    .blogs{
+        display: none;
+    }
+   
+}

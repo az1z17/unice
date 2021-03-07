@@ -19,7 +19,7 @@ export default function Banner() {
                         </div>
                         <div>
                            <ul className={cls.list}>
-                               <li>
+                               <li className={cls.pd}>
                                    <Link href="/">
                                        <a className={`${cls.btn} ${cls.btnWhite}`}>GET APP NOW</a>
                                    </Link>

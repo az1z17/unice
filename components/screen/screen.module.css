@@ -148,3 +148,34 @@
 .m1{
     margin-top: 90px;
 }
+
+
+@media (max-width:576px){
+    .row img{
+        width: 158px;
+    }
+    .row img:first-child{
+        display: none;
+    }
+    .row img:last-child{
+        margin-right: 0;
+    }
+    .membersAll{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .setAbs{
+        height: 50px;
+    }
+    .setRelative{
+        padding-bottom: 50px;
+    }
+    .post{
+        margin-bottom: 20px;
+    }
+    .blackMan{
+         
+        margin-top: 0;
+    }
+}

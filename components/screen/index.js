@@ -83,7 +83,7 @@ export default function Screen() {
                     <h6 className={cls.post}>seniour UI/XI designer</h6>
                 </div>
                 </div>
-                <div className={cls.m1}>
+                <div className={`${cls.m1} ${cls.blackMan}`}>
                 <div className={cls.members}>
                      <div className={cls.card}>
                          <div className={cls.overflow}>

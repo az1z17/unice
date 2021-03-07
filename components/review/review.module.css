@@ -114,3 +114,9 @@
     color: #434345;
     text-transform: capitalize;
 }
+
+@media (max-width:576px){
+    .card{
+        display: inline-block;
+    }
+}

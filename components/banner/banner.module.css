@@ -1,5 +1,5 @@
 .bg{
- background: #FF534B;
+ background:linear-gradient( #FF534B, #F66E54,#FD6D64);
  padding: 0;
  margin: 0;
  position: relative;
@@ -88,3 +88,33 @@
     margin-right: 130px;
 }
  
+
+/*  */
+@media (max-width:576px) {
+    .landingImg{
+        display: none;
+    }
+    .landingPage{
+        padding-top: 50px;
+        text-align: center;
+    }
+    .list{
+        display: flex;
+        margin-bottom: 60px;
+        padding-right: 0;
+        justify-content: center;
+       
+    }
+    .list li{
+        padding-right: 0;
+    }
+    .pd{
+        padding-right: 25px !important;
+    }
+    .list a{
+        padding: 15px 20px;
+    }
+    .bg{
+        bottom: 0;
+    }
+}

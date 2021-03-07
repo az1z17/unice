@@ -9,13 +9,18 @@ export default function Footer() {
             <Container>
              <div className={cls.row}>
              <div className={cls.logo}>
+            
+                 <h5 className={`${cls.header} ${cls.about}`}>About Us</h5>
+                 <hr className={cls.hr}/>
                     <img src="images/1.png"/>
                     <div className={cls.text}>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sed libero ab fugiat nobis eveniet magni distinctio! Nisi, delectus numquam.</p>
                     </div>
                 </div>
+                <hr className={cls.hr}/>
+                
                 <div className={cls.post}>
-                    <h5 className={cls.header}>post tags</h5>
+                    <h5 className={`${cls.header} ${cls.postText}`}>post tags</h5>
                     <div className={cls.postLists}>
                         <ul className={cls.linksBtn}>
                             <li>app</li>
@@ -29,8 +34,11 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
+
+                <hr className={cls.hr}/>
+
                 <div className={cls.blog}>
-                    <h5 className={cls.header}>blog categories</h5>
+                    <h5 className={`${cls.header} ${cls.postText}`}>blog categories</h5>
                     <div>
                         <ul className={cls.link}>
                         <li className={cls.lists}>
@@ -61,8 +69,10 @@ export default function Footer() {
                         </ul>
                     </div>
                 </div>
+                <hr className={cls.hr}/>
+
                 <div className={cls.contact}> 
-                    <h5 className={cls.header}>contact info</h5>
+                    <h5 className={`${cls.header} ${cls.postText}`}>contact info</h5>
                     <div>
                         <ul className={cls.contactInfo}>
                         <li>

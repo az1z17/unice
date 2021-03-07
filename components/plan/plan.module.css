@@ -156,3 +156,12 @@
 .MediumCard{
     margin-right: 30px;
 }
+
+@media (max-width:576px){
+    .row{
+        display: inline-block;
+    }
+    .MediumCard{
+        margin-bottom: 40px;
+    }
+}

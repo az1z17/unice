@@ -128,7 +128,32 @@
 
 @media (max-width:576px) {
     .setOrder{
-        flex: 0 0 50%;
-        max-width: 50%;
+        width: 80%;
     }
+    .imgBlock img{
+        width: 250px;
+    }
+    .imgBlock{
+     padding-left: 50px;
+    }
+    .row{
+        display: inline-block;
+    }
+    .headText{
+        text-align: center;
+    }
+   .collection{
+    justify-content: center;
+   }
+   .btn{
+       margin-left: 70px;
+       margin-bottom: 30px;
+   }
+   .centerContent:hover{
+       background: linear-gradient(#FF534B, #F66E54,#fd6d64);
+    border: transparent;
+    outline: none;
+   }
+   
+     
 }

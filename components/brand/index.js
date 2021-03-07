@@ -40,8 +40,8 @@ export default function Brand() {
                                 <div className={cls.centerContent}>
                                     <div className={cls.formGroup}>
                                         <div className={cls.flex}>
-                                            <MailOutlineIcon className={cls.icon}/>
-                                            <input type="email" name="email" placeholder="example@gmail.com" className={cls.form}/>
+                                           <div> <MailOutlineIcon className={cls.icon}/>
+                                            <input type="email" name="email" placeholder="example@gmail.com" className={cls.form}/></div>
                                             <div className={cls.btn}>
                                                 <button>subscribe now</button>
                                             </div>
