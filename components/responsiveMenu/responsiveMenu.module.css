@@ -1,6 +1,13 @@
 .mobileBlock{
     display: none;
+    background: #0E0D23 !important;
+    opacity: 1;
+    position: fixed;
+    z-index: 9999;
 }
+/* .header{
+    background-color: #0E0D23;
+} */
 .nav ul li{
     border-bottom: 1px solid #eeeff3;
 }
@@ -13,9 +20,10 @@
 .close{
     position: relative;
     bottom: 4px;
+    color: #fff;
 }
 .closesIcon{
-    color: #111;
+    color: #fff;
     position: relative;
     top: 4px;
     font-weight: 100;
@@ -69,6 +77,7 @@
     font-size: 15px;
     color: #666;
     cursor: pointer;
+    display: none;
 }
 .arrowButton{
     outline: none;
@@ -77,7 +86,9 @@
    
 }
 .top{
-    background: rgba(238, 239, 243, 0.5);
+    /* background: rgba(238, 239, 243, 0.5); */
+    background: #0E0D23;
+    color: #fff;
 }
 .top ul{
     display: inline;
@@ -137,7 +148,7 @@
         font-size: 13px;
         font-weight: 400;
         color: #111;
-        background: #d5d6db;
+        background: #0E0D23;
     }
     .mobileBlock{
         transform: translateX(0);

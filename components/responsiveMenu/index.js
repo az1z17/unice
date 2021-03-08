@@ -14,7 +14,7 @@ const [langMenu, setLangMenu] = useState(false);
         <Container>
             <div className={cls.mobileBlock}>
                 <div className={cls.header}>
-                    <div className={` ${cls.siteHeader} ${cls.lang}`}>
+                    {/* <div className={` ${cls.siteHeader} ${cls.lang}`}>
                         <button
                         onClick={() => setLangMenu(!langMenu)} 
                         className={cls.langButton}>
@@ -54,18 +54,18 @@ const [langMenu, setLangMenu] = useState(false);
                             </div>
                         </div>
                         </button>
-                    </div>
-                    <div className={cls.close} onClick={closeMenu}><CloseIcon className={cls.closesIcon}/>Закрыть</div>
+                    </div> */}
+                    <div className={cls.close} onClick={closeMenu}><CloseIcon className={cls.closesIcon}/></div>
                 </div>
                 <nav className={`${cls.menu} ${cls.top} ${cls.nav}`}>
                     <ul className={cls.navItem}>
                         <li className={cls.hasChild}>
                             <Link href="/">
-                                <a>Доставка по России
+                                <a>HOME
                                     <ChevronRightIcon className={`${cls.arrowButton} ${cls.positionArrow}`}/>
                                 </a>
                                 </Link>
-                            <ul className={cls.pageChild} onClick={closeMenu}>
+                            {/* <ul className={cls.pageChild} onClick={closeMenu}>
                                 <li className={cls.currentPage}>
                                     <Link href="/services"><a>Экспресс-доставка</a></Link>
                                 </li>
@@ -81,15 +81,15 @@ const [langMenu, setLangMenu] = useState(false);
                                 <li>
                                     <Link href="/services"><a>Популярные направления</a></Link>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </li>
                         <li className={cls.hasChild}>
                             <Link href="/">
-                            <a>Международная доставка
+                            <a>about
                                 <ChevronRightIcon className={`${cls.arrowButton} ${cls.positionDeliver}`}/>
                             </a>
                             </Link>
-                            <ul className={cls.pageChild} onClick={closeMenu}>
+                            {/* <ul className={cls.pageChild} onClick={closeMenu}>
                                 <li>
                                     <Link href="/services"><a>Экспресс-доставка</a></Link>
                                 </li>
@@ -105,32 +105,32 @@ const [langMenu, setLangMenu] = useState(false);
                                 <li>
                                     <Link href="/services"><a>Экспорт для интернет-магазинов</a></Link>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </li>
                         <li className={cls.hasChild}>
-                            <Link href="/"><a>Дополнительные услуги и сборы
+                            <Link href="/"><a>contact us
                             <ChevronRightIcon className={`${cls.arrowButton} ${cls.positionDeliver}`}/>
                                 </a></Link>
-                            <ul className={cls.pageChild} onClick={closeMenu} >
+                            {/* <ul className={cls.pageChild} onClick={closeMenu} >
                                 <li>
                                     <Link href="/services"><a>Дополнительные услуги</a></Link>
                                 </li>
                                 <li>
                                     <Link href="/services"><a>Дополнительные сборы</a></Link>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </li>
-                        <li onClick={closeMenu}>
+                        {/* <li onClick={closeMenu}>
                             <Link href="/services"><a>Таможенное декларирование</a></Link>
                         </li>
                         <li onClick={closeMenu}>
                             <Link href="/services"><a>Условия доставки</a></Link>
-                        </li>
+                        </li> */}
                         <li className={cls.hasChild}>
-                            <Link href="/"><a>2Полезная информация
+                            <Link href="/"><a>information
                              <ChevronRightIcon className={`${cls.arrowButton} ${cls.positionDeliver}`}/> 
                                 </a></Link>
-                            <ul className={cls.pageChild} onClick={closeMenu}>
+                            {/* <ul className={cls.pageChild} onClick={closeMenu}>
                                 <li>
                                     <Link href="/services"><a>Центр справочной информации</a></Link>
                                 </li>
@@ -140,11 +140,11 @@ const [langMenu, setLangMenu] = useState(false);
                                 <li>
                                     <Link href="/services"><a>Пресс-релизы</a></Link>
                                 </li>
-                            </ul>
+                            </ul> */}
                         </li>
                     </ul>
                 </nav>
-                <nav className={`${cls.menu} ${cls.bottom}`}>
+                {/* <nav className={`${cls.menu} ${cls.bottom}`}>
                     <ul >
                         <li onClick={closeMenu}>
                             <Link href="/about"><a>О компании</a></Link>
@@ -166,7 +166,7 @@ const [langMenu, setLangMenu] = useState(false);
                         </li>
                     </ul>
                     
-                </nav>
+                </nav> */}
             </div>
         </Container>
     )
