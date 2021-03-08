@@ -1,10 +1,12 @@
 .bg{
- background:linear-gradient( #FF534B, #F66E54,#FD6D64);
+ /* background:linear-gradient( #FF534B, #F66E54,#FD6D64); */
+ background-color: #fff;
  padding: 0;
  margin: 0;
- position: relative;
+ /* position: relative; */
  bottom: 25px;
- color: #fff;
+ max-width: 100%;
+ color: #000;
 }
 .landingPage{
     display: flex;
@@ -34,7 +36,7 @@
     font-weight: 600;
 }
 .textPage hr {
-    background: #fff;
+    background: #000;
     width: 90px;
     height: 3px;
     position:relative;
@@ -61,31 +63,37 @@
     font-weight: 400;
     font-size: 14px;
 }
-.btn{
+/* .btn{
     font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));
     border-radius: 50px;
-}
-.btnWhite{
-    text-transform: uppercase;
+} */
+.btnWhite img{
+    /* text-transform: uppercase;
     letter-spacing: 1px;
     padding: 15px 40px;
     background: #fff;
     border: 2px solid #fd6f64;
     color: #fd6f64 !important;
-    outline: transparent;
+    outline: transparent; */
+    width: 172px;
+    height: 55px;
      
 }
 .btnBlack{
-    text-transform: uppercase;
+    /* text-transform: uppercase;
     letter-spacing: 1px;
     padding: 15px 40px;
     background: transparent;
-    border: 2px solid #fff;
-    color: #fff !important;
-    outline: transparent;
+    border: 2px solid #000;
+    color: #000 !important;
+    outline: transparent; */
 }
 .landingImg {
     margin-right: 130px;
+}
+.landingImg img{
+    width: 510px;
+    height: 601px;
 }
  
 
@@ -94,12 +102,16 @@
     .landingImg{
         display: none;
     }
+    .textPage{
+        font-size: 15px;
+    }
     .landingPage{
         padding-top: 50px;
         text-align: center;
     }
     .list{
         display: flex;
+        flex-direction: column;
         margin-bottom: 60px;
         padding-right: 0;
         justify-content: center;
@@ -110,6 +122,7 @@
     }
     .pd{
         padding-right: 25px !important;
+        margin-left: 30px;
     }
     .list a{
         padding: 15px 20px;

@@ -102,8 +102,8 @@
     padding: 15px 40px;
     border:transparent;
     position: relative;
-    background-color:#F66E54;
-    background-image: linear-gradient(to right,#F66E54 ,#F66E54 , #F66E54, #F66E54 );
+    background-color: #0E0D23;
+    /* background-image: linear-gradient(to right,#F66E54 ,#F66E54 , #F66E54, #F66E54 ); */
     background-size: 300% 100%;
     font-weight: 500;
     border-radius: 50px;

@@ -82,7 +82,7 @@
     border: transparent;
     position: relative;
     color: #fff;
-    background-color: #FF534B;
+    background-color: #0E0D23;
     background-size: 300% 100%;
     border-radius: 40px;
     position: relative;
@@ -92,7 +92,7 @@
     vertical-align: middle;
     line-height: 1.5;
     user-select: none;
-    background-image: linear-gradient(to right,#F66E54,#F66E54,#F66E54,#F66E54);
+    /* background-image: linear-gradient(to right,#F66E54,#F66E54,#F66E54,#F66E54); */
 }
 @media (max-width:576px) {
     .app{

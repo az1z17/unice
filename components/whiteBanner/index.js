@@ -10,7 +10,7 @@ export default function WhiteBanner() {
             <div className={cls.app}>
 
                 <div className={cls.imgPage}>
-                        <img src="images/mobile.png"/>
+                        <img src="images/Group_45.webp"/>
                 </div>
                 <div className={cls.textPage}>
                         <div>

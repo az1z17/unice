@@ -35,7 +35,7 @@
     text-align: center;
     letter-spacing: 1px;
     font-weight: 500;
-    color: #fd6d64;
+    color: #0E0D23;
     text-transform: uppercase; 
     font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
 
@@ -123,7 +123,8 @@
     width: 100%;
 }
 .icon{
-    color: #fd6d64;
+    /* color: #fd6d64; */
+    color: #0E0D23;
     position: relative;
     left: 40px;
 }
@@ -141,7 +142,8 @@
     height: 82px;
 }
 .flex input::placeholder{
-    color: #fd6d64;
+    /* color: #fd6d64; */
+    color: #0E0D23;
 }
 .btn{
     top: 0;
@@ -160,7 +162,8 @@
     border-radius: 34px;
     border: transparent;
     position: relative;
-    background-color: #FF534B;
+    /* background-color: #FF534B; */
+    background: #0E0D23;
     text-transform: capitalize;
     color: #fff;
     right: 210px;

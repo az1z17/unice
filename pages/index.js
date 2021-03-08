@@ -17,9 +17,9 @@ export default function Home() {
       <WhiteBanner/>
       <Features/>
       <QualityApp/>
-      <Review/>
-      <Screen/>
-      <Plan/>
+      {/* <Review/> */}
+      {/* <Screen/> */}
+      {/* <Plan/> */}
       <Brand/>
       <Footer/>
     </div>

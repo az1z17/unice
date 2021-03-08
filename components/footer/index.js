@@ -6,6 +6,7 @@ import Container from '@material-ui/core/Container'
 export default function Footer() {
     return (
         <div className={cls.footer}>
+            <img src="images/noroot.webp" className={cls.light}/>
             <Container>
              <div className={cls.row}>
              <div className={cls.logo}>

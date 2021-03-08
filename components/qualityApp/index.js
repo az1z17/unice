@@ -44,7 +44,7 @@ export default function QualityApp() {
                         </div>
                     </div>
                     <div className={cls.imgBlock}>
-                        <img src="images/l-2.png" alt=""/>
+                        <img src="images/Group_46_1.webp" alt=""/>
                     </div>
                 </div>
             </Container>

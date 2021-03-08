@@ -21,19 +21,23 @@ export default function Banner() {
                            <ul className={cls.list}>
                                <li className={cls.pd}>
                                    <Link href="/">
-                                       <a className={`${cls.btn} ${cls.btnWhite}`}>GET APP NOW</a>
+                                       <a className={`${cls.btn} ${cls.btnWhite}`}>
+                                           <img src="images/Download_on_the_App_Store_Badge_USUK_135x40.svg"/>
+                                       </a>
                                    </Link>
                                </li>
                                <li>
                                    <Link href="/">
-                                       <a className={`${cls.btn} ${cls.btnBlack}`}>DISCOVER MORE </a>
+                                       <a className={`${cls.btn} ${cls.btnBlack}`}>
+                                           <img src="images/googleplaybadge2.webp"/>
+                                       </a>
                                    </Link>
                                </li>
                            </ul>
                         </div>
                     </div>
                     <div className={cls.landingImg}>
-                        <img src="images/h2-mobile.png"/>
+                        <img src="images/Group_44_1.webp"/>
                     </div>
                 </div>
       

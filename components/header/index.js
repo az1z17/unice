@@ -1,10 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 import Container from '@material-ui/core/Container';
 import Link from 'next/link'
 import cls from './header.module.css'
+import ResponsiveMenu from '../responsiveMenu'
+
 
 export default function Header() {
+    const [menu, setMenu] = useState(false)
     return (
+  <>
   <div className={cls.header}>
             <Container>
             <nav className={cls.nav}>
@@ -29,5 +33,7 @@ export default function Header() {
             </nav>
             </Container>
   </div>
+  {menu ? <ResponsiveMenu closeMenu={() => setMenu(false)} /> : ''}
+  </>
     )
 }
