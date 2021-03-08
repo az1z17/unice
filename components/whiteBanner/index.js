@@ -7,20 +7,21 @@ export default function WhiteBanner() {
     return (
         <div>
             <Container>
+            <div className={cls.workText}>
+                 Как это работает?
+            </div>
             <div className={cls.app}>
-
+           
                 <div className={cls.imgPage}>
                         <img src="images/Group_45.webp"/>
                 </div>
                 <div className={cls.textPage}>
+                      
                         <div>
-                            <h6>our progress</h6>
+                            <h3>Скачайте приложение "ШАТАУТ"</h3>
                         </div>
-                        <div>
-                            <h3>great application ever</h3>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium rerum numquam minima fuga enim animi nihil debitis, earum sed, ducimus magnam accusantium exercitationem delectus corporis impedit quaerat esse fugit et minus fugiat, iste vel aut voluptates? Obcaecati omnis praesentium et.</p>
+                        <div className={cls.p}>
+                        И выберите интересную Вам знаменитость
                         </div>
                         <div>
                             <ul className={cls.list}>

@@ -20,7 +20,8 @@ export default function Header() {
                 <div className={cls.brand}>
                 <Link href="/" >
                     <a className={cls.logo}>
-                        <img src="images/1.png"/>
+                        
+                        <img src="images/muno.svg"/>
                     </a>
                 </Link>
                 </div>

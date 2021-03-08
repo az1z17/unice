@@ -127,6 +127,7 @@
     color: #0E0D23;
     position: relative;
     left: 40px;
+    /* top: 2px; */
 }
 .flex{
     position: relative;
@@ -197,7 +198,8 @@
     }
     .icon{
         position: relative;
-        bottom: 110px;
+        bottom: 95px;
+        font-size: 20px;
         z-index: 9999;
     }
     .btn button{

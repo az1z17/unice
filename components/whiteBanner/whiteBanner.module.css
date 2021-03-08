@@ -11,15 +11,19 @@
 }
 .textPage{
     padding-left: 10px;
+    padding-top: 60px;
 }
-.textPage h6{
+.workText{
     position: relative;
     letter-spacing: 1px;
     font-weight: 500;
     margin-left: 60px;
     margin-bottom: 25px;
-    color: #fd6f64;
-    font-size: 14px;
+    font-size: 25px;
+    color: #0E0D23;
+    font-weight: 700;
+    /* font-size: 14px; */
+    text-align: center;
     padding-top: 80px;
     text-transform: uppercase;
 }
@@ -27,12 +31,13 @@
     font-size: calc(20px + (30 - 20) * ((100vw - 300px) / (1920 - 300)));
     margin-top: 0;
     line-height: 0.8;
+    /* margin-top: 30px; */
     font-weight: 500;
     text-transform: capitalize;
     margin-bottom:  50px;
     color: #434345;
 }
-.textPage p {
+.textPage .p {
     margin-bottom: 35px;
     letter-spacing: 0;
     color: #949494;
@@ -96,22 +101,35 @@
 }
 @media (max-width:576px) {
     .app{
-        display: inline-block;
+        display: flex;
         padding-left: 5px;
+        padding-top: 10px;
     }
     .btn{
         margin-bottom: 30px;
     }
+    .workText{
+        font-size: 15px;
+    }
     .textPage{
-        text-align: center;
+        /* text-align: center; */
+        /* margin-bottom: 0; */
+    }
+    .textPage h3{
+        margin-bottom: 20px;
+        font-size: 15px;
+        line-height:1;
+    }
+    .list{
+        display: none;
     }
     .iconAbout{
         width: 75px;
         height: 71px;
     }
     .imgPage img{
-        width: 250px;
-        height: 486px;
+        width: 90px;
+        height: 163px;
     }
     .imgPage{
         text-align: center;

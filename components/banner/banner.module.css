@@ -21,14 +21,15 @@
     text-transform: capitalize;
     font-weight: 300;
 }
-.textPage h1{
+.textPage .h1{
     padding-bottom: 20px;
     position: relative;
     margin-bottom: 45px;
     font-size: calc(22px +(45 -22) * ((100vw - 300px) / 1920 - 300));
     line-height: 1.4;
     text-transform: capitalize;
-    font-weight: 400;
+    margin-top: 40px;
+    font-weight: 800;
     letter-spacing: 2px;
     margin-top: -7px;
 }
@@ -41,7 +42,7 @@
     height: 3px;
     position:relative;
     bottom: 40px;
-    right: 285px;
+    right: 255px;
 }
 .textPage p {
     font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));
@@ -100,25 +101,51 @@
 /*  */
 @media (max-width:576px) {
     .landingImg{
-        display: none;
+        /* display: none; */
     }
     .textPage{
         font-size: 15px;
     }
+    .textPage .h1{
+        font-size: 15px;
+        margin-bottom: 0;
+        width: 232px;
+        margin-right: 0;
+        font-weight: 500;
+    }
     .landingPage{
         padding-top: 50px;
-        text-align: center;
+        /* text-align: center; */
+    }
+    .landingImg img{
+        width: 130px;
+        height: 153px;
+        position: relative;
+        right: 35px;
     }
     .list{
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
         margin-bottom: 60px;
         padding-right: 0;
         justify-content: center;
        
     }
+    .btn img{
+        width: 100px;
+        height: 29px;
+    }
+    .pd{
+        width: 100px;
+        height: 29px;
+    }
     .list li{
         padding-right: 0;
+        /* padding-bottom: 0; */
+    }
+    .textPage h2{
+        font-size: 10px;
+        font-weight: 400;
     }
     .pd{
         padding-right: 25px !important;
@@ -129,5 +156,8 @@
     }
     .bg{
         bottom: 0;
+    }
+    .text{
+        width: 232px;
     }
 }

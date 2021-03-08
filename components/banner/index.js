@@ -9,13 +9,17 @@ export default function Banner() {
             <Container>
                 <div className={cls.landingPage}>
                     <div className={cls.textPage}>
-                        <h6># App Landing Page</h6>
-                        <div>
-                            <h1>The Best <span>Landing Page</span> For <br/> Your App</h1>
+                        {/* <h6># App Landing Page</h6> */}
+                        <div className={cls.text}>
+                            {/* <h1>The Best <span>Landing Page</span> For <br/> Your App</h1> */}
+                            <h2 className={cls.h1}>Заказывайте, делитесь
+                                и наслаждайтесь
+                                видео-сообщениями от своих любимых инфлюенсеров
+                            </h2>
                             <hr/>
                         </div>
                         <div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel possimus dolorum voluptate doloremque, laboriosam eius, tenetur autem commodi voluptatum cupiditate amet quod pariatur error dicta, id perferendis explicabo sequi incidunt!</p>
+                            <h2>ШАТАУТ - Сервис по заказу видео-приветов, <br/> советов и поздравлений от знаменитостей</h2>
                         </div>
                         <div>
                            <ul className={cls.list}>
@@ -26,7 +30,7 @@ export default function Banner() {
                                        </a>
                                    </Link>
                                </li>
-                               <li>
+                               <li className={cls.pd1}>
                                    <Link href="/">
                                        <a className={`${cls.btn} ${cls.btnBlack}`}>
                                            <img src="images/googleplaybadge2.webp"/>
