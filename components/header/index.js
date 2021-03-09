@@ -4,6 +4,7 @@ import Link from 'next/link'
 import cls from './header.module.css'
 import ResponsiveMenu from '../responsiveMenu'
 import MenuIcon from '@material-ui/icons/Menu'
+import AnchorLink from 'react-anchor-link-smooth-scroll'
 
 
 
@@ -27,12 +28,12 @@ export default function Header() {
                 </div>
                 <div className={cls.blogs}>
                     <ul className={cls.list}>
-                        <li>HOME</li>
-                        <li>BLOG</li>
-                        <li>PAGES</li>
-                        <li>ELEMENTS</li>
-                        <li>PORTFOLIO</li>
-                        <li>FEATURES</li>
+                    <AnchorLink href='#banner'><li>Главный странница</li></AnchorLink>
+                    <AnchorLink href='#about'><li>Что такое Muno</li></AnchorLink>
+                    <AnchorLink href='#whiteBanner'><li>Как это работает?</li></AnchorLink>
+                    <AnchorLink href='#features'><li>Все что нужно знать</li></AnchorLink>
+                        {/* <li>PORTFOLIO</li> */}
+                        {/* <li>FEATURES</li> */}
                     </ul>
                 </div>
               

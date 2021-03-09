@@ -5,14 +5,74 @@
 }
 .row{
     display: flex;
-    padding-top: 200px;
+    /* padding-top: 200px; */
     padding-left: 50px;
     padding-right: 180px;
+    flex-direction: column;
     cursor: pointer;
-    padding-bottom: 150px;
+    /* padding-bottom: 150px; */
     background: #0E0D23;
 }
+.list{
+    display: flex;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 0px; */
+    cursor: pointer;
+}
+.list li{
+    list-style: none;
+    padding-left: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: underline;
+    padding: 18px;
+}
+/* .list li:hover{
+    border-bottom: 1px solid #fff;
+} */
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.logo img{
+    width: 160px;
+
+}
+.about{
+    display: none;
+}
+.lastText{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 40px;
+}
 .text{
+    /* display: flex; */
+    color: #fff;
+    /* justify-content: end; */
+    /* padding-top: 70px; */
+    font-size: 16px;
+    line-height: 1.5;
+    opacity: 0.8;
+    font-weight: 400;
+    /* text-align: center; */
+    /* padding-bottom: 80px; */
+}
+.ownerText{
+    color: #ebebeb;
+    /* position: relative; */
+    top: 100px;
+    opacity: 0.8;
+    font-size: 16px;
+
+}
+/* .text{
     margin-bottom: 30px;
     width: 255px;
 
@@ -54,6 +114,21 @@
 .hr{
     display: none;
 }
+.light{
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+}
+.contactInfo li{
+    margin-bottom: 35px;
+    display: flex;
+    line-height: 1.2;
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 14px;
+}
 .lists a{
     font-weight: 300;
     color: #fff;
@@ -77,6 +152,7 @@
     color: #fff;
     
 }
+
 .link{
     list-style: none;
     padding: 0;
@@ -86,12 +162,12 @@
     margin-bottom: 10px;
     color: #fff;
     text-transform: capitalize;
-    font-weight: 400;
-    margin-top: 0;
+    font-weight: 400; */
+    /* margin-top: 0;
     font-size: 14px;
 
-}
-.contactInfo{
+} */
+/* .contactInfo{
     list-style-type: none;
     padding: 0;
     margin: 0;
@@ -99,25 +175,8 @@
 }
 .contact{
     padding-left: 45px;
-}
-.light{
-    width: 100%;
-    position: relative;
-    bottom: 20px;
-}
-.contactInfo li{
-    margin-bottom: 35px;
-    display: flex;
-    line-height: 1.2;
-    color: #fff;
-    font-weight: 400;
-    text-transform: capitalize;
-    font-weight: 400;
-    font-size: 14px;
-}
-.about{
-    display: none;
-}
+} */
+
 @media (max-width:576px){
     .row{
         display: inline-block;
@@ -138,6 +197,9 @@
         margin-top: 50px;
         /* background:linear-gradient(#FF534B, #fd6d64, #F66E54); */
         background: #0E0D23;
+    }
+    .logo img{
+        width: 80px;
     }
     .about{
         display: inline-block;
@@ -162,4 +224,19 @@
     .postText{
         padding-bottom: 20px;
     }
+    .blogs .list{
+        flex-direction: column;
+        padding-left: 0;
+    }
+    .ownerText{
+        font-size: 13px;
+    }
+    .text{
+        font-size: 13px;
+    }
+    .lastText{
+        flex-direction: column;
+        text-align: center;
+    }
+
 }

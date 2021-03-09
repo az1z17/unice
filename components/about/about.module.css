@@ -1,0 +1,32 @@
+.title{
+    color: #000;
+    font-size: 32px;
+    line-height: 1.2;
+    font-weight: 700;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+    text-align: center;
+    /* display: table-cell; */
+    /* vertical-align: middle; */
+    width: 100%;
+    text-align: center !important;
+}
+.muno{
+    color: rgb(136, 0, 255) !important;
+    text-decoration: none;
+    /* border-bottom: 2px solid #880S0ff; */
+}
+.text{
+    color: #000;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 300;
+    background-position: center center;
+    border-color: transparent;
+    border-style: solid;
+}
+.about {
+
+    padding-bottom: 50px;
+}

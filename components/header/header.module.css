@@ -8,8 +8,12 @@
     z-index: 0;
     display: none;
 }
+
 .nav {
     display: flex;
+}
+.logo img{
+    width: 160px;
 }
 .brand{
     margin-top: 20px;
@@ -17,7 +21,7 @@
 .list{
     display: flex;
     text-decoration: none;
-    margin-left: 500px;
+    margin-left: 350px;
     cursor: pointer;
 }
 .list li{
@@ -27,7 +31,11 @@
     font-weight: 500;
     font-size: 14px;
     padding: 18px;
+    border-bottom: 1px solid transparent;
 
+}
+.list li:hover{
+    border-bottom:1px solid #fff;
 }
 
 
@@ -37,13 +45,14 @@
         display: none;
     }
     .logo img{
-        height: 40px;
+        height: 35px;
         font-size: 30px;
         margin-bottom: 20px;
        
     }
     .logo{
         text-align: center;
+        
     }
     .hamburgerIcon{
         display: inline-block;

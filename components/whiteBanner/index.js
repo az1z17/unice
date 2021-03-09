@@ -5,7 +5,8 @@ import Link from 'next/link'
 
 export default function WhiteBanner() {
     return (
-        <div>
+      <section id='whiteBanner'>
+            <div className={cls.banner}>
             <Container>
             <div className={cls.workText}>
                  Как это работает?
@@ -17,43 +18,47 @@ export default function WhiteBanner() {
                 </div>
                 <div className={cls.textPage}>
                       
-                        <div>
-                            <h3>Скачайте приложение "ШАТАУТ"</h3>
+                        <div className={cls.dowlandText}>
+                            <h3>Скачайте приложение <br/> "Muno"</h3>
                         </div>
                         <div className={cls.p}>
                         И выберите интересную Вам знаменитость
                         </div>
-                        <div>
-                            <ul className={cls.list}>
-                                <li className={cls.iconAbout}>
-                                   <Link href="/">
-                                       <a>
-                                       <img src="images/1 (4).png"/>
-                                       </a>
-                                   </Link>
-                                </li>
-                                <li className={cls.iconAbout}>
-                                   <Link href="/">
-                                       <a>
-                                       <img src="images/2 (4).png"/>
-                                       </a>
-                                   </Link>
-                                </li>
-                                <li className={cls.iconAbout}>
-                                   <Link href="/">
-                                       <a>
-                                       <img src="images/3 (2).png"/>
-                                       </a>
-                                   </Link>
-                                </li>
-                            </ul>
-                            <Link href="/" >
-                                <a className={cls.btn}>learn more</a>
-                            </Link>
-                        </div>
                 </div>
             </div>
+            <div className={cls.row}>
+        
+                <div className={cls.text}>
+                Оформите заказ
+                <div className={cls.paragText}>
+                Заполните и подтвердите заказ, <br/> знаменитость получит Ваш запрос и <br/> запишет видео специально для Вас
+                </div>
+                </div>
+                <div className={cls.imgBlock}>
+                <img src="images/Group_45.webp"/>
+                </div>
+            </div>
+
+            <div className={cls.app}>
+           
+           <div className={cls.imgPage}>
+                   <img src="images/Group_46_1.webp"/>
+           </div>
+           <div className={cls.textPage}>
+                 
+                   <div className={cls.dowlandText}>
+                       <h3>
+                       Поделитесь видео <br/>
+                        со своими друзьями
+                       </h3>
+                   </div>
+                   <div className={`${cls.p} ${cls.pLast}`}>
+                   Публикуйте видео в социальных сетях и <br/> наслаждайтесь видео сами!
+                   </div>
+           </div>
+       </div>
             </Container>
         </div>
+      </section>
     )
 }

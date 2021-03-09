@@ -2,6 +2,7 @@
  /* background:linear-gradient( #FF534B, #F66E54,#FD6D64); */
  background-color: #fff;
  padding: 0;
+ padding-bottom: 70px;
  margin: 0;
  /* position: relative; */
  bottom: 25px;
@@ -12,7 +13,9 @@
     display: flex;
     padding-top: 200px;
 }
- 
+.textPage{
+    flex: 45%;
+} 
 .textPage h6{
     margin-top: -4px;
     letter-spacing: 1px;
@@ -25,13 +28,20 @@
     padding-bottom: 20px;
     position: relative;
     margin-bottom: 45px;
-    font-size: calc(22px +(45 -22) * ((100vw - 300px) / 1920 - 300));
+    /* font-size: calc(22px +(45 -22) * ((100vw - 300px) / 1920 - 300)); */
     line-height: 1.4;
     text-transform: capitalize;
     margin-top: 40px;
-    font-weight: 800;
+    font-weight: 500;
+    line-height: 38px;
+    font-size: 32px;
     letter-spacing: 2px;
     margin-top: -7px;
+}
+.serviceText h2{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
 }
 .textPage span {
     font-weight: 600;
@@ -42,7 +52,7 @@
     height: 3px;
     position:relative;
     bottom: 40px;
-    right: 255px;
+    right: 265px;
 }
 .textPage p {
     font-size: calc(13px + (16 - 13) * ((100vw - 300px) / (1920 - 300)));
@@ -60,7 +70,7 @@
 }
 .list li {
     list-style: none;
-    padding-right: 35px;
+    padding-right: 8px;
     font-weight: 400;
     font-size: 14px;
 }
@@ -90,7 +100,8 @@
     outline: transparent; */
 }
 .landingImg {
-    margin-right: 130px;
+    flex: 45%;
+    /* margin-right: 130px; */
 }
 .landingImg img{
     width: 510px;
@@ -100,28 +111,32 @@
 
 /*  */
 @media (max-width:576px) {
-    .landingImg{
-        /* display: none; */
-    }
+
     .textPage{
         font-size: 15px;
     }
+    .bg{
+        padding-bottom: 80px;
+    }
     .textPage .h1{
-        font-size: 15px;
+        font-size: 20px;
         margin-bottom: 0;
-        width: 232px;
+        /* width: 232px; */
         margin-right: 0;
         font-weight: 500;
     }
     .landingPage{
+        display: block;
+        text-align: center;
         padding-top: 50px;
         /* text-align: center; */
     }
     .landingImg img{
-        width: 130px;
-        height: 153px;
+        width: 160px;
+        height: 203px;
+        margin-left: 90px;
         position: relative;
-        right: 35px;
+        right: 45px;
     }
     .list{
         display: flex;
@@ -158,6 +173,17 @@
         bottom: 0;
     }
     .text{
-        width: 232px;
+        /* width: 232px; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding-right: 0; */
     }
+    .text hr{
+        display: none;
+    }
+    .serviceText h2{
+        font-size: 16px;
+    }
+  
 }

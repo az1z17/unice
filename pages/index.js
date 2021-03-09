@@ -8,19 +8,21 @@ import Screen from '../components/screen'
 import Plan from '../components/plan'
 import Brand from '../components/brand'
 import Footer from '../components/footer'
+import About from '../components/about'
 
 export default function Home() {
   return (
     <div>
       <Header/>
       <Banner/>
+      <About/>
       <WhiteBanner/>
       <Features/>
-      <QualityApp/>
+      {/* <QualityApp/> */}
       {/* <Review/> */}
       {/* <Screen/> */}
       {/* <Plan/> */}
-      <Brand/>
+      {/* <Brand/> */}
       <Footer/>
     </div>
   )

@@ -3,9 +3,11 @@ import cls from './banner.module.css'
 import Link from 'next/link'
 import Container from '@material-ui/core/Container'
 
+
 export default function Banner() {
     return (
-        <div className={cls.bg}>
+       <section id='banner'>
+            <div className={cls.bg}>
             <Container>
                 <div className={cls.landingPage}>
                     <div className={cls.textPage}>
@@ -18,8 +20,8 @@ export default function Banner() {
                             </h2>
                             <hr/>
                         </div>
-                        <div>
-                            <h2>ШАТАУТ - Сервис по заказу видео-приветов, <br/> советов и поздравлений от знаменитостей</h2>
+                        <div className={cls.serviceText}>
+                            <h2>Muno - Сервис по заказу видео-приветов, <br/> советов и поздравлений от знаменитостей</h2>
                         </div>
                         <div>
                            <ul className={cls.list}>
@@ -48,5 +50,6 @@ export default function Banner() {
             </Container>
         
         </div>
+       </section>
     )
 }
