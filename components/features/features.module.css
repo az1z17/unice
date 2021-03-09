@@ -1,5 +1,6 @@
 .row{
     /* margin-bottom: 70px; */
+    background-color: #fbfbfb;
 }
 .logo{
     text-align: center;
@@ -11,7 +12,9 @@
 }
 .title h1{
     text-align: center;
+    padding-top: 20px;
     padding-bottom: 20px;
+    font-size: 32px;
 }
 /* .title span::before{
     right: 100%;

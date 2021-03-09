@@ -9,7 +9,7 @@
     padding-left: 50px;
     padding-right: 180px;
     flex-direction: column;
-    cursor: pointer;
+    /* cursor: pointer; */
     /* padding-bottom: 150px; */
     background: #0E0D23;
 }
@@ -28,8 +28,11 @@
     color: #fff;
     font-weight: 500;
     font-size: 14px;
-    text-decoration: underline;
     padding: 18px;
+    
+}
+.list li:hover{
+    text-decoration: underline;
 }
 /* .list li:hover{
     border-bottom: 1px solid #fff;
@@ -71,6 +74,9 @@
     opacity: 0.8;
     font-size: 16px;
 
+}
+.udevs:hover{
+    text-decoration: underline;
 }
 /* .text{
     margin-bottom: 30px;

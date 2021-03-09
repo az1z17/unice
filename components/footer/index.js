@@ -14,8 +14,8 @@ export default function Footer() {
 
              <div className={cls.blogs}>
                     <ul className={cls.list}>
-                    <AnchorLink href='#banner'><li>Главный странница</li></AnchorLink>
-                    <AnchorLink href='#about'><li>Что такое Muno</li></AnchorLink>
+                    <AnchorLink href='#banner'><li>Главный страница</li></AnchorLink>
+                    <AnchorLink href='#about'><li>Что такое Muno?</li></AnchorLink>
                     <AnchorLink href='#whiteBanner'><li>Как это работает?</li></AnchorLink>
                     <AnchorLink href='#features'><li>Все что нужно знать</li></AnchorLink>
                         {/* <li>PORTFOLIO</li> */}
@@ -26,7 +26,7 @@ export default function Footer() {
              <div className={cls.logo}>
             
                  {/* <h5 className={`${cls.header} ${cls.about}`}>About Us</h5> */}
-                    <img src="images/muno.svg"/>
+                    <AnchorLink href="#header"><img src="images/muno.svg"/></AnchorLink>
 
 
                 
@@ -113,9 +113,9 @@ export default function Footer() {
 
  <div className={cls.lastText}>
  <div className={cls.ownerText}>
-                    Created By 
+                    Created by 
                     <Link href='https://udevs.io/'>
-                        <a> Udevs</a>
+                        <a className={cls.udevs}> Udevs</a>
                     </Link>
 
                 </div>

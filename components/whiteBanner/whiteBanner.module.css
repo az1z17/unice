@@ -14,6 +14,7 @@
     width: 355px;
     /* right: 0; */
     
+
 }
 .textPage{
     /* flex: 30%; */
@@ -28,9 +29,10 @@
     position: relative;
     letter-spacing: 1px;
     font-weight: 500;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     margin-bottom: 25px;
-    font-size: 25px;
+    font-size: 32px;
+    line-height: 38px;
     color: #0E0D23;
     font-weight: 700;
     /* font-size: 14px; */
@@ -108,6 +110,9 @@
     display: flex;
     justify-content: center;
 }
+.bgFb{
+    background-color: #fbfbfb;
+}
 .dowlandText h3{
     margin-top: 0;
     font-size: 32px;
@@ -116,7 +121,7 @@
     font-weight: 500;
     color: #000;
 }
-.text{
+.text h3{
     color: #000;
     font-size: 32px;
     line-height: 38px;

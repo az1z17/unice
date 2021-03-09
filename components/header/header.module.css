@@ -21,7 +21,7 @@
 .list{
     display: flex;
     text-decoration: none;
-    margin-left: 350px;
+    margin-left: 300px;
     cursor: pointer;
 }
 .list li{
@@ -29,14 +29,14 @@
     padding-left: 20px;
     color: #fff;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     padding: 18px;
     border-bottom: 1px solid transparent;
 
 }
 .list li:hover{
     border-bottom:1px solid #fff;
-    transition: 2s;
+    transition: 0.2s;
 }
 
 

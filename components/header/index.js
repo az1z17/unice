@@ -11,7 +11,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll'
 export default function Header() {
     const [menu, setMenu] = useState(false)
     return (
-  <>
+  <section id='header'>
   <div className={cls.header}>
             <Container>
             <nav className={cls.nav}>
@@ -41,6 +41,6 @@ export default function Header() {
             </Container>
   </div>
   {menu ? <ResponsiveMenu closeMenu={() => setMenu(false)} /> : ''}
-  </>
+  </section>
     )
 }

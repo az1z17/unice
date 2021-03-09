@@ -26,8 +26,10 @@ export default function WhiteBanner() {
                         </div>
                 </div>
             </div>
+            </Container>
+            <div className={cls.bgFb}>
+        <Container>
             <div className={cls.row}>
-        
                 <div className={cls.text}>
                     <h3>Оформите заказ</h3>
                 <div className={cls.paragText}>
@@ -37,8 +39,10 @@ export default function WhiteBanner() {
                 <div className={cls.imgBlock}>
                 <img src="images/Group_45.webp"/>
                 </div>
+                </div>
+                </Container>
             </div>
-
+<Container>
             <div className={cls.app}>
            
            <div className={cls.imgPage}>
