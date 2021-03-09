@@ -9,10 +9,7 @@ export default function About() {
 <div className={cls.about}>
             <Container>
                 <div className={cls.title}>
-                Что такое 
-                <Link href="/">
-                    <a className={cls.muno}> Muno</a>
-                </Link>
+                Что такое Muno
                 </div>
                 <h1 className={cls.text}>
                 Muno - это сервис, где фанаты могут заказать персонализированные видео поздравления от своих любимых знаменитостей, актеров, блогеров или спортсменов. Наша миссия - создать самые аутентичные и запоминающиеся впечатления.

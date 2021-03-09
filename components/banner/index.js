@@ -21,7 +21,7 @@ export default function Banner() {
                             <hr/>
                         </div>
                         <div className={cls.serviceText}>
-                            <h2>Muno - Сервис по заказу видео-приветов, <br/> советов и поздравлений от знаменитостей</h2>
+                            <h2>Muno - сервис по заказу видео-приветов, <br/> советов и поздравлений от знаменитостей</h2>
                         </div>
                         <div>
                            <ul className={cls.list}>

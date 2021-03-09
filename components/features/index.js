@@ -18,12 +18,6 @@ export default function Features() {
                         </span>
                     </h1>
                 </div>
-                <div className={cls.textCenter}>
-                 <h2>
-                 Перед тем как скачать 
-                    <span className={cls.brand}> Muno</span> 
-                 </h2>
-                </div>
 
                 {/*  */}
 

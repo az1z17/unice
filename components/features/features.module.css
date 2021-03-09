@@ -64,7 +64,7 @@
 }
 .card {
     display: flex;
-    padding-top: 60px;
+    /* padding-top: 60px; */
 }
 .cardBody{
     width: 100%;

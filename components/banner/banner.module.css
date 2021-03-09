@@ -30,7 +30,7 @@
     margin-bottom: 45px;
     /* font-size: calc(22px +(45 -22) * ((100vw - 300px) / 1920 - 300)); */
     line-height: 1.4;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin-top: 40px;
     font-weight: 500;
     line-height: 38px;

@@ -36,6 +36,7 @@
 }
 .list li:hover{
     border-bottom:1px solid #fff;
+    transition: 2s;
 }
 
 

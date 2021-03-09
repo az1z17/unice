@@ -28,8 +28,8 @@ export default function Header() {
                 </div>
                 <div className={cls.blogs}>
                     <ul className={cls.list}>
-                    <AnchorLink href='#banner'><li>Главный странница</li></AnchorLink>
-                    <AnchorLink href='#about'><li>Что такое Muno</li></AnchorLink>
+                    <AnchorLink href='#banner'><li>Главный страница</li></AnchorLink>
+                    <AnchorLink href='#about'><li>Что такое Muno?</li></AnchorLink>
                     <AnchorLink href='#whiteBanner'><li>Как это работает?</li></AnchorLink>
                     <AnchorLink href='#features'><li>Все что нужно знать</li></AnchorLink>
                         {/* <li>PORTFOLIO</li> */}

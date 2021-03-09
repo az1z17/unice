@@ -29,7 +29,7 @@ export default function WhiteBanner() {
             <div className={cls.row}>
         
                 <div className={cls.text}>
-                Оформите заказ
+                    <h3>Оформите заказ</h3>
                 <div className={cls.paragText}>
                 Заполните и подтвердите заказ, <br/> знаменитость получит Ваш запрос и <br/> запишет видео специально для Вас
                 </div>
