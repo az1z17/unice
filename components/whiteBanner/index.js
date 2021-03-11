@@ -11,9 +11,9 @@ export default function WhiteBanner() {
             <div className={cls.workText}>
                  Как это работает?
             </div>
-            <div className={cls.app}>
+            <div className={`${cls.app} ${cls.munoApp}`}>
            
-                <div className={cls.imgPage}>
+                <div className={cls.imgPage1}>
                         <img src="images/Group_45.webp"/>
                 </div>
                 <div className={cls.textPage}>

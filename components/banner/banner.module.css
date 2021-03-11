@@ -36,12 +36,14 @@
     line-height: 38px;
     font-size: 32px;
     letter-spacing: 2px;
+    text-align: start;
     margin-top: -7px;
 }
 .serviceText h2{
     font-weight: 300;
     font-size: 18px;
     line-height: 27px;
+    text-align: start;
 }
 .textPage span {
     font-weight: 600;
@@ -110,6 +112,57 @@
  
 
 /*  */
+
+
+
+
+@media (max-width:1240px){
+    .textPage hr{
+        right: 240px;
+    }
+
+}
+@media (max-width:1140px){
+    .textPage hr{
+      display: none;
+    }
+}
+@media (max-width:928px){
+    .landingImg img{
+        width: 450px;
+        height: 550px;
+        position: relative;
+        right: 25px;
+    }
+    .textPage .h1{
+        font-size: 28px;
+    }
+}
+@media (max-width:832px){
+    .landingImg img{
+      width: 370px;
+      height: 470px;
+    }
+    .textPage .h1{
+        font-size: 26px;
+    }
+}
+@media (max-width:760px) {
+    .landingPage{
+        display: block;
+        padding-top: 70px;
+    }
+    .banner .h1{
+        font-size: 32px;
+    }
+    .list{
+        justify-content: center;
+        padding-bottom: 60px;
+    }
+    .landingImg {
+        margin-bottom: 40px;
+    }
+}
 @media (max-width:576px) {
 
     .textPage{
@@ -119,7 +172,9 @@
         padding-bottom: 80px;
     }
     .textPage .h1{
-        font-size: 20px;
+        font-size: 27px;
+        line-height: 32px;
+        text-align: center !important;
         margin-bottom: 0;
         /* width: 232px; */
         margin-right: 0;
@@ -131,12 +186,8 @@
         padding-top: 50px;
         /* text-align: center; */
     }
-    .landingImg img{
-        width: 160px;
-        height: 203px;
-        margin-left: 90px;
-        position: relative;
-        right: 45px;
+    .landingImg img {
+        text-align: center;
     }
     .list{
         display: flex;
@@ -183,7 +234,8 @@
         display: none;
     }
     .serviceText h2{
-        font-size: 16px;
+        font-size: 18px;
+        text-align: center !important;
     }
   
 }

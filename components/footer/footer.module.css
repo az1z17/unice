@@ -6,8 +6,8 @@
 .row{
     display: flex;
     /* padding-top: 200px; */
-    padding-left: 50px;
-    padding-right: 180px;
+    /* padding-left: 50px; */
+    /* padding-right: 180px; */
     flex-direction: column;
     /* cursor: pointer; */
     /* padding-bottom: 150px; */
@@ -184,6 +184,10 @@
 } */
 
 @media (max-width:576px){
+    .container{
+        padding: 0 !important;
+        text-align: center;
+    }
     .row{
         display: inline-block;
         padding-bottom: 0;

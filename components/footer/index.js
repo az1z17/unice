@@ -9,7 +9,7 @@ export default function Footer() {
     return (
         <div className={cls.footer}>
             {/* <img src="images/noroot.webp" className={cls.light}/> */}
-            <Container>
+            <Container className={cls.container}>
              <div className={cls.row}>
 
              <div className={cls.blogs}>

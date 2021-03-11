@@ -232,3 +232,106 @@
                 
             }
 }
+
+
+/*  */
+@media (max-width:991px) {
+    
+    .header{
+        visibility: visible;
+        z-index: 1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        height: 50px;
+        top: 0;
+        left: 0;
+        padding: 10px 20px;
+        font-size: 13px;
+        font-weight: 400;
+        color: #111;
+        background: #0E0D23;
+    }
+    .mobileBlock{
+        transform: translateX(0);
+        left: 0;
+        display: block;
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        overflow-x: hidden;
+        overflow-y: auto;
+        font-weight: 500;
+        background: #fff;
+        color: #111;
+        transition: transform .4s;
+    }
+    .siteHeader{
+        display: flex;
+    }
+    .langItem img{
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+    .langName{
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+    .lang button{
+        outline: none;
+        background: transparent;
+        border: none;
+    }
+    .itemLang img {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+    }
+    .langBritish
+    {
+        position: relative;
+        top: 5px;
+        margin-bottom: 0;
+    }
+   
+        .langArrow {
+            color: #666;
+            font-size: 15px;
+            position: relative;
+            left: 10px;
+            top: 2px;
+        }
+        .langItemList{
+            color: #666;
+            font-size: 15px;
+            position: relative;
+            left: 10px;
+            top: 2px;
+        }
+        .langItemName{
+            margin-left: 10px;
+            margin-top: 3px;
+        }
+        .langList{
+            visibility: hidden;
+            position: absolute;
+            left: 5%;
+            top: 50px;
+            background: #fff;
+            padding-left: 10px;
+            padding-top: 10px;
+            padding-right: 10px;
+            }
+            .show{
+                visibility: visible;
+            }
+            .langItemList{
+                padding-bottom: 15px;
+                
+            }
+}
