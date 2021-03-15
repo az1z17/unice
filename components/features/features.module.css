@@ -1,20 +1,19 @@
-.row{
-    /* margin-bottom: 70px; */
-    background-color: #fbfbfb;
+.row {
+  background-color: #fbfbfb;
 }
-.logo{
-    text-align: center;
-    margin-top: 50px;
+.logo {
+  text-align: center;
+  margin-top: 50px;
 }
-.logo img{
-    width: 50px;
-    height: 50px;
+.logo img {
+  width: 50px;
+  height: 50px;
 }
-.title h1{
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 32px;
+.title h1 {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 32px;
 }
 /* .title span::before{
     right: 100%;
@@ -37,95 +36,93 @@
     top: 50%;
     box-sizing: border-box;
 } */
-.title span{
-    display: inline-block;
-    position: relative;
+.title span {
+  display: inline-block;
+  position: relative;
 }
-.title h6{
-    text-align: center;
-    letter-spacing: 1px;
-    font-weight: 500;
-    color: #fd6d64;
-    /* text-transform: uppercase;  */
-    font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
-
+.title h6 {
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fd6d64;
+  font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300)));
 }
-.textCenter h2{
-    /* font-size: calc(18px + (30 - 18) * ((100vw - 300px) / (1920 - 300))); */
-    color: #000;
-    font-size: 20px;
-    margin-top: -1px;
-    margin-bottom: -14px;
-    font-weight: 400;
-    /* text-transform: capitalize; */
-    text-align: center !important;
-    line-height: 30px;
+.textCenter h2 {
+  color: #000;
+  font-size: 20px;
+  margin-top: -1px;
+  margin-bottom: -14px;
+  font-weight: 400;
+  text-align: center !important;
+  line-height: 30px;
 }
-.brand{
-    color: #8800FF;
-    font-weight: 600;
+.brand {
+  color: #8800ff;
+  font-weight: 600;
 }
 .card {
-    display: flex;
-    /* padding-top: 60px; */
+  display: flex;
 }
-.cardBody{
-    width: 100%;
-    position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+.cardBody {
+  width: 100%;
+  position: relative;
+  padding-left: 15px;
+  padding-right: 15px;
 }
-.cardBody h4{
-    font-weight: 500;
-    /* text-transform: capitalize; */
-    margin-top: 0;
-    color: #000;
-    letter-spacing: 0;
-    margin-bottom: 22px;
-    line-height: 1.8;
-    font-size: 22px;
-    /* font-size: calc(16px + (20 - 16) * ((100vw - 300px) / (1920 - 300))); */
+.cardBody h4 {
+  font-weight: 500;
+  margin-top: 0;
+  color: #000;
+  letter-spacing: 0;
+  margin-bottom: 22px;
+  line-height: 1.8;
+  font-size: 22px;
 }
-.cardBody p{
-    letter-spacing: 0;
-    margin-bottom: 3px;
-    color: #000;
-    font-size: 18px;
-    /* font-size: calc(13px + (14 - 13) * ((100vw - 300px) / (1920 - 300))); */
-    margin-top: -7px;
-    font-weight: 400;
-    line-height: 1.8;
-    
+.cardBody p {
+  letter-spacing: 0;
+  margin-bottom: 3px;
+  color: #000;
+  font-size: 18px;
+  margin-top: -7px;
+  font-weight: 400;
+  line-height: 1.8;
 }
-.service{
-    margin-bottom: 30px;
-    /* border-radius: 15px; */
-    padding: 60px 25px;
-    /* border: 1px solid #f7f7f7; */
-    box-shadow: 0 0 10px 5px rgb(253, 248, 247 / 69%);
-    text-align: center;
-    transition: all 1s;
-    box-sizing: border-box;
+.service {
+  margin-bottom: 30px;
+  padding-top: 60px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 60px;
+  box-shadow: 0 0 10px 5px rgb(253, 248, 247 / 69%);
+  text-align: center;
+  transition: all 1s;
+  box-sizing: border-box;
 }
-.imgBlock{
-    transition: all 0.5s;
-    margin-bottom: 15px;
+.imgBlock {
+  transition: all 0.5s;
+  margin-bottom: 15px;
 }
-.imgBlock img{
-    width: 60px;
-    height: 60px;
-    height: auto;
-    vertical-align: middle;
-    border-style: none;
+.imgBlock img {
+  width: 60px;
+  height: 60px;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
 }
 
-@media (max-width:576px){
-    .card{
-        display: inline-block;
-    }
+@media (max-width: 576px) {
+  .card {
+    display: inline-block;
+  }
+  .service {
+    padding-top: 0 !important;
+  }
 }
-@media (max-width:850px){
-    .card{
-        display: inline-block;
-    }
+@media (max-width: 850px) {
+  .card {
+    display: inline-block;
+  }
+  .service {
+    padding-top: 0;
+  }
 }

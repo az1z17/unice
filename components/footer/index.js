@@ -4,33 +4,38 @@ import Link from 'next/link'
 import Container from '@material-ui/core/Container'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 
-
 export default function Footer() {
-    return (
-        <div className={cls.footer}>
-            {/* <img src="images/noroot.webp" className={cls.light}/> */}
-            <Container className={cls.container}>
-             <div className={cls.row}>
+  return (
+    <div className={cls.footer}>
+      {/* <img src="images/noroot.webp" className={cls.light}/> */}
+      <Container className={cls.container}>
+        <div className={cls.row}>
+          <div className={cls.blogs}>
+            <ul className={cls.list}>
+              <AnchorLink href='#banner'>
+                <li>Главный страница</li>
+              </AnchorLink>
+              <AnchorLink href='#about'>
+                <li>Что такое Muno?</li>
+              </AnchorLink>
+              <AnchorLink href='#whiteBanner'>
+                <li>Как это работает?</li>
+              </AnchorLink>
+              <AnchorLink href='#features'>
+                <li>Все что нужно знать</li>
+              </AnchorLink>
+              {/* <li>PORTFOLIO</li> */}
+              {/* <li>FEATURES</li> */}
+            </ul>
+          </div>
 
-             <div className={cls.blogs}>
-                    <ul className={cls.list}>
-                    <AnchorLink href='#banner'><li>Главный страница</li></AnchorLink>
-                    <AnchorLink href='#about'><li>Что такое Muno?</li></AnchorLink>
-                    <AnchorLink href='#whiteBanner'><li>Как это работает?</li></AnchorLink>
-                    <AnchorLink href='#features'><li>Все что нужно знать</li></AnchorLink>
-                        {/* <li>PORTFOLIO</li> */}
-                        {/* <li>FEATURES</li> */}
-                    </ul>
-                </div>
+          <div className={cls.logo}>
+            {/* <h5 className={`${cls.header} ${cls.about}`}>About Us</h5> */}
+            <AnchorLink href='#header'>
+              <img src='images/muno.svg' />
+            </AnchorLink>
 
-             <div className={cls.logo}>
-            
-                 {/* <h5 className={`${cls.header} ${cls.about}`}>About Us</h5> */}
-                    <AnchorLink href="#header"><img src="images/muno.svg"/></AnchorLink>
-
-
-                
-                    {/* <div className={cls.text}>
+            {/* <div className={cls.text}>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sed libero ab fugiat nobis eveniet magni distinctio! Nisi, delectus numquam.</p>
                     </div>
                 </div>
@@ -109,25 +114,26 @@ export default function Footer() {
                         </li>
                         </ul>
                     </div> */}
-                </div>
+          </div>
 
- <div className={cls.lastText}>
- <div className={cls.ownerText}>
-                    Created by 
-                    <Link href='https://udevs.io/'>
-                        <a className={cls.udevs}> Udevs</a>
-                    </Link>
-
-                </div>
-                <div className={cls.text}>
-                © 2021 ООО "Muno"
-                Все права защищены
-                <br/>
-                <br/>
-                </div>
- </div>
-             </div>
-            </Container>
+          <div className={cls.lastText}>
+            <div className={cls.ownerText}>
+              Created by
+              <Link href='https://udevs.io/'>
+                <a target='_blank' className={cls.udevs}>
+                  {' '}
+                  Udevs
+                </a>
+              </Link>
+            </div>
+            <div className={cls.text}>
+              © 2021 ООО "Muno" Все права защищены
+              <br />
+              <br />
+            </div>
+          </div>
         </div>
-    )
+      </Container>
+    </div>
+  )
 }
