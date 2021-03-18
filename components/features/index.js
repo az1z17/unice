@@ -4,109 +4,78 @@ import Link from 'next/link'
 import Container from '@material-ui/core/Container'
 
 export default function Features() {
-    return (
-        <section id='features'>
-            <div className={cls.row}>
-            <Container>
-                <div className={cls.logo}>
-                    {/* <img src="images/2.png" alt=""/> */}
+  return (
+    <section id='banner'>
+      <div className={cls.bg}>
+        <div className={cls.textSide}>
+          <Container>
+            <div className={cls.landingPage}>
+              <div className={cls.textPage}>
+                <div className={cls.text}>
+                  <h2 className={cls.h1}>Скачайте Muno </h2>
+                  <hr />
                 </div>
-                <div className={cls.title}>
-                    <h1>
-                        <span>
-                        Все что нужно знать
-                        </span>
-                    </h1>
+                <div>
+                  <h4>
+                    Скачайте приложение "Muno" в App Store <br /> или Google
+                    Play.
+                  </h4>
                 </div>
-
-                {/*  */}
-
-                <div className={cls.card}>
-                    <div className={cls.cardBody}>
-                        <div className={cls.service}>
-                            <div className={cls.imgBlock}>
-                                <img src="images/giftbox.png" />
-                            </div>
-                            <div className={cls.textBlock}>
-                                <h4>
-                                Идеально подходит
-                                для подарка или сюрприза
-                                </h4>
-                                  <p>Поздравить с днем рождения, разыграть друзей, спросить совета у знаменитости или вызвать своих врагов на рэп-баттл?</p>                  
-                              </div>
-                        </div>
-                    </div>
-                    <div className={cls.cardBody}>
-                        <div className={cls.service}>
-                            <div className={cls.imgBlock}>
-                                <img src="images/salary.png" />
-                            </div>
-                            <div className={cls.textBlock}>
-                                <h4>
-                                Оплата происходит только в момент, когда Вы получите готовое видео
-                                </h4>
-                                <p>
-                                Для безопасности обеих сторон все сделки совершаются по принципу "Безопасная сделка."
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={cls.cardBody}>
-                        <div className={cls.service}>
-                            <div className={cls.imgBlock}>
-                                <img src="images/social-media.png" />
-                            </div>
-                            <div className={cls.textBlock}>
-                                <h4>
-                                Не нашли знаменитость которую искали - не беда! Сообщите ей об этом в социальных сетях
-                                </h4>
-                                <p>
-                                Ваш любимый артист, блогер или спортсмен не узнает, что Вы хотите получить от него видео, пока Вы ему сами об этом не скажете.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
+                <div>
+                  <ul className={cls.list}>
+                    <li className={cls.pd}>
+                      <Link href='/'>
+                        <a className={`${cls.btn} ${cls.btnWhite}`}>
+                          <img
+                            src='images/app store (1).png'
+                            alt='appStore'
+                            className={cls.phone1}
+                          />
+                          <img
+                            src='images/app store (2).png'
+                            alt='appStore'
+                            className={cls.phone}
+                          />
+                        </a>
+                      </Link>
+                    </li>
+                    <li className={cls.pd1}>
+                      <Link href='/'>
+                        <a className={`${cls.btn} ${cls.btnBlack}`}>
+                          <img
+                            src='images/google play (1).png'
+                            alt='googlePlay'
+                            className={cls.phone1}
+                          />
+                          <img
+                            src='images/google play (2).png'
+                            alt='googlePlay'
+                            className={cls.phone}
+                          />
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
                 </div>
-
-
-                {/*  */}
-                {/* <div className={cls.card}>
-                    <div className={cls.cardBody}>
-                        <div className={cls.service}>
-                            <div className={cls.imgBlock}>
-                                <img src="images/2-4.png" />
-                            </div>
-                            <div className={cls.textBlock}>
-                                <h4>team collabration</h4>
-                                <p>Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={cls.cardBody}>
-                        <div className={cls.service}>
-                            <div className={cls.imgBlock}>
-                                <img src="images/2-5.png" />
-                            </div>
-                            <div className={cls.textBlock}>
-                                <h4>user permissions</h4>
-                                <p>Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={cls.cardBody}>
-                        <div className={cls.service}>
-                            <div className={cls.imgBlock}>
-                                <img src="images/2-6.png" />
-                            </div>
-                            <div className={cls.textBlock}>
-                                <h4>unlimited storage</h4>
-                                <p>Unlike team chat apps, Flow is designed to help your team stay focused by keeping relevant and actionable.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
-            </Container>
+              </div>
+            </div>
+          </Container>
         </div>
-        </section>
-    )
+        <div className={cls.imagesSide}>
+          <div className={cls.landingImg}>
+            <img
+              src='images/phones (1).png'
+              alt='phoneApp'
+              className={cls.phone1}
+            />
+            <img
+              src='images/image (1).png'
+              alt='phoneApp'
+              className={cls.phone}
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }

@@ -1,31 +1,108 @@
-.title{
-    padding-top: 20px;
-    color: #000;
-    font-size: 32px;
-    line-height: 1.2;
-    font-weight: 700;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-    text-align: center;
-    width: 100%;
-    text-align: center !important;
-}
-.muno{
-    color: rgb(136, 0, 255) !important;
-    text-decoration: none;
-    /* border-bottom: 2px solid #880S0ff; */
-}
-.text{
-    color: #000;
-    font-size: 18px;
-    line-height: 1.5;
-    font-weight: 300;
-    background-position: center center;
-    border-color: transparent;
-    border-style: solid;
-}
 .about {
-background-color: #fbfbfb;
-    padding-bottom: 50px;
+  display: flex;
 }
+.imagesSide {
+  flex: 50%;
+  background-color: #f5cb14;
+}
+.imagesSide img {
+  position: relative;
+  left: 350px;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.textSide {
+  flex: 50%;
+  color: #1d1937;
+  background-color: #e5e5e5;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 180px;
+  /* align-items: center; */
+}
+.textSide h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  font-style: bold;
+  line-height: 123%;
+  word-spacing: 4px;
+}
+.textSide h3 {
+  font-weight: 400;
+  font-style: 18px;
+  line-height: 32px;
+  line-height: 131%;
+  word-spacing: 5px;
+  width: 363px;
+}
+.munoText {
+  width: 340px;
+  padding-top: 200px;
+}
+.textSide hr {
+  height: 4px;
+  background-color: #1d1937;
+}
+.phone {
+  display: none;
+}
+@media (max-width: 576px) {
+  .about {
+    flex-direction: column-reverse;
+  }
+  .row {
+    padding-left: 0;
+  }
+  .phone1 {
+    display: none;
+  }
+  .phone {
+    display: block;
+  }
+  .imagesSide {
+    padding-left: 16px;
+    padding-right: 19px;
+  }
+  .imagesSide img {
+    left: 0;
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .munoText {
+    padding-top: 0;
+  }
+  .munoText h1 {
+    font-size: 24px;
+    line-height: 40px;
+    padding-top: 20px;
+  }
+  .textSide hr {
+    border: transparent;
+    width: 255px;
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+  }
+  .textSide h3 {
+    font-size: 17px;
+    line-height: 32px;
+    font-weight: 400;
+    padding-bottom: 20px;
+  }
+}
+/* @media (max-width: 1400px) {
+  .imagesSide img {
+    left: 100px;
+  }
+  .imagesSide {
+    flex: 54.4%;
+  }
+} */

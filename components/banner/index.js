@@ -3,53 +3,81 @@ import cls from './banner.module.css'
 import Link from 'next/link'
 import Container from '@material-ui/core/Container'
 
-
 export default function Banner() {
-    return (
-       <section id='banner'>
-            <div className={cls.bg}>
-            <Container>
-                <div className={cls.landingPage}>
-                    <div className={cls.textPage}>
-                        {/* <h6># App Landing Page</h6> */}
-                        <div className={cls.text}>
-                            {/* <h1>The Best <span>Landing Page</span> For <br/> Your App</h1> */}
-                            <h2 className={cls.h1}>Заказывайте, делитесь
-                                и наслаждайтесь
-                                видео-сообщениями от своих любимых инфлюенсеров
-                            </h2>
-                            <hr/>
-                        </div>
-                        <div className={cls.serviceText}>
-                            <h2>Muno - сервис по заказу видео-приветов, <br/> советов и поздравлений от знаменитостей</h2>
-                        </div>
-                        <div>
-                           <ul className={cls.list}>
-                               <li className={cls.pd}>
-                                   <Link href="/">
-                                       <a className={`${cls.btn} ${cls.btnWhite}`}>
-                                           <img src="images/Download_on_the_App_Store_Badge_USUK_135x40.svg"/>
-                                       </a>
-                                   </Link>
-                               </li>
-                               <li className={cls.pd1}>
-                                   <Link href="/">
-                                       <a className={`${cls.btn} ${cls.btnBlack}`}>
-                                           <img src="images/googleplaybadge2.webp"/>
-                                       </a>
-                                   </Link>
-                               </li>
-                           </ul>
-                        </div>
-                    </div>
-                    <div className={cls.landingImg}>
-                        <img src="images/Group_44_1.webp"/>
-                    </div>
+  return (
+    <section id='banner'>
+      <div className={cls.bg}>
+        <div className={cls.textSide}>
+          <Container>
+            <div className={cls.landingPage}>
+              <div className={cls.textPage}>
+                <div className={cls.text}>
+                  <h2 className={cls.h1}>
+                    Заказывайте видео- <br /> сообщении от своих <br /> Кумиров
+                  </h2>
                 </div>
-      
-            </Container>
-        
+                <div>
+                  <ul className={cls.list}>
+                    <li className={cls.pd}>
+                      <Link href='/'>
+                        <a className={`${cls.btn} ${cls.btnWhite}`}>
+                          <img
+                            src='images/app store.png'
+                            alt='appStore'
+                            className={cls.phone1}
+                          />
+                        </a>
+                      </Link>
+                    </li>
+                    <li className={cls.pd1}>
+                      <Link href='/'>
+                        <a className={`${cls.btn} ${cls.btnBlack}`}>
+                          <img
+                            src='images/google play.png'
+                            alt='googlePlay'
+                            className={cls.phone1}
+                          />
+                        </a>
+                      </Link>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </Container>
         </div>
-       </section>
-    )
+        <div className={cls.imagesSide}>
+          <div className={cls.landingImg}>
+            <img src='images/Group.png' alt='phoneApp' />
+          </div>
+          <div className={cls.blog}>
+            <ul className={cls.list}>
+              <li className={cls.pd}>
+                <Link href='/'>
+                  <a className={`${cls.btn} ${cls.btnWhite}`}>
+                    <img
+                      src='images/app store (2).png'
+                      alt='appStore'
+                      className={cls.phone}
+                    />
+                  </a>
+                </Link>
+              </li>
+              <li className={cls.pd1}>
+                <Link href='/'>
+                  <a className={`${cls.btn} ${cls.btnBlack}`}>
+                    <img
+                      src='images/google play (2).png'
+                      alt='googlePlay'
+                      className={cls.phone}
+                    />
+                  </a>
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
 }

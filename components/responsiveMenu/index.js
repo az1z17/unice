@@ -1,71 +1,34 @@
 import { Container } from '@material-ui/core'
-import React , { useState } from 'react'
+import React, { useState } from 'react'
 import cls from './responsiveMenu.module.css'
 import Link from 'next/link'
-import ChevronRightIcon from '@material-ui/icons/ChevronRight';
-import CloseIcon from '@material-ui/icons/Close';
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
-
+import ChevronRightIcon from '@material-ui/icons/ChevronRight'
+import CloseIcon from '@material-ui/icons/Close'
+import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
 export default function ResponsiveMenu({ closeMenu }) {
-const [langMenu, setLangMenu] = useState(false); 
+  const [langMenu, setLangMenu] = useState(false)
 
-    return (
-        <Container>
-            <div className={cls.mobileBlock}>
-                <div className={cls.header}>
-                    {/* <div className={` ${cls.siteHeader} ${cls.lang}`}>
-                        <button
-                        onClick={() => setLangMenu(!langMenu)} 
-                        className={cls.langButton}>
-                        <div className={cls.siteHeader}>
-                            <div className={cls.langItem}>
-                                <img src="images/russia.svg"/>
-                            </div>
-                            <div className={cls.langName}>Русский</div> 
-                            <div >
-                                <ExpandMoreIcon className={cls.langArrow}/>
-                            </div>
-                            <div className={`${cls.langList} ${langMenu ? cls.show : ''}`}>
-                                <Link href="/">
-                                    <a>
-                                        <div className={cls.langItemList}>
-                                            <div className={cls.itemLang}>
-                                                <img src="images/uzb.svg"/>
-                                            </div>
-                                            <div className={cls.langItemName}>
-                                            Узбекский
-                                            </div>
-                                         </div>
-                                     </a>
-                                </Link>
-                                <Link href="/">
-                                    <a>
-                                        <div className={`${cls.langItemList} ${cls.langBritish}`}>
-                                            <div className={cls.itemLang}>
-                                                <img src="images/britain.png"/>
-                                            </div>
-                                            <div className={cls.langItemName}>
-                                                Английский
-                                            </div>
-                                        </div>                                    
-                                    </a>                                
-                                </Link>
-                            </div>
-                        </div>
-                        </button>
-                    </div> */}
-                    <div className={cls.close} onClick={closeMenu}><CloseIcon className={cls.closesIcon}/></div>
-                </div>
-                <nav className={`${cls.menu} ${cls.top} ${cls.nav}`}>
-                    <ul className={cls.navItem}>
-                        <li className={cls.hasChild}>
-                            <Link href="/">
-                                <a>HOME
-                                    <ChevronRightIcon className={`${cls.arrowButton} ${cls.positionArrow}`}/>
-                                </a>
-                                </Link>
-                            {/* <ul className={cls.pageChild} onClick={closeMenu}>
+  return (
+    <Container>
+      <div className={cls.mobileBlock}>
+        <div className={cls.header}>
+          <div className={cls.close} onClick={closeMenu}>
+            <CloseIcon className={cls.closesIcon} />
+          </div>
+        </div>
+        <nav className={`${cls.menu} ${cls.top} ${cls.nav}`}>
+          <ul className={cls.navItem}>
+            <li className={cls.hasChild}>
+              <Link href='/'>
+                <a>
+                  HOME
+                  <ChevronRightIcon
+                    className={`${cls.arrowButton} ${cls.positionArrow}`}
+                  />
+                </a>
+              </Link>
+              {/* <ul className={cls.pageChild} onClick={closeMenu}>
                                 <li className={cls.currentPage}>
                                     <Link href="/services"><a>Экспресс-доставка</a></Link>
                                 </li>
@@ -82,14 +45,17 @@ const [langMenu, setLangMenu] = useState(false);
                                     <Link href="/services"><a>Популярные направления</a></Link>
                                 </li>
                             </ul> */}
-                        </li>
-                        <li className={cls.hasChild}>
-                            <Link href="/">
-                            <a>about
-                                <ChevronRightIcon className={`${cls.arrowButton} ${cls.positionDeliver}`}/>
-                            </a>
-                            </Link>
-                            {/* <ul className={cls.pageChild} onClick={closeMenu}>
+            </li>
+            <li className={cls.hasChild}>
+              <Link href='/'>
+                <a>
+                  about
+                  <ChevronRightIcon
+                    className={`${cls.arrowButton} ${cls.positionDeliver}`}
+                  />
+                </a>
+              </Link>
+              {/* <ul className={cls.pageChild} onClick={closeMenu}>
                                 <li>
                                     <Link href="/services"><a>Экспресс-доставка</a></Link>
                                 </li>
@@ -106,12 +72,17 @@ const [langMenu, setLangMenu] = useState(false);
                                     <Link href="/services"><a>Экспорт для интернет-магазинов</a></Link>
                                 </li>
                             </ul> */}
-                        </li>
-                        <li className={cls.hasChild}>
-                            <Link href="/"><a>contact us
-                            <ChevronRightIcon className={`${cls.arrowButton} ${cls.positionDeliver}`}/>
-                                </a></Link>
-                            {/* <ul className={cls.pageChild} onClick={closeMenu} >
+            </li>
+            <li className={cls.hasChild}>
+              <Link href='/'>
+                <a>
+                  contact us
+                  <ChevronRightIcon
+                    className={`${cls.arrowButton} ${cls.positionDeliver}`}
+                  />
+                </a>
+              </Link>
+              {/* <ul className={cls.pageChild} onClick={closeMenu} >
                                 <li>
                                     <Link href="/services"><a>Дополнительные услуги</a></Link>
                                 </li>
@@ -119,18 +90,23 @@ const [langMenu, setLangMenu] = useState(false);
                                     <Link href="/services"><a>Дополнительные сборы</a></Link>
                                 </li>
                             </ul> */}
-                        </li>
-                        {/* <li onClick={closeMenu}>
+            </li>
+            {/* <li onClick={closeMenu}>
                             <Link href="/services"><a>Таможенное декларирование</a></Link>
                         </li>
                         <li onClick={closeMenu}>
                             <Link href="/services"><a>Условия доставки</a></Link>
                         </li> */}
-                        <li className={cls.hasChild}>
-                            <Link href="/"><a>information
-                             <ChevronRightIcon className={`${cls.arrowButton} ${cls.positionDeliver}`}/> 
-                                </a></Link>
-                            {/* <ul className={cls.pageChild} onClick={closeMenu}>
+            <li className={cls.hasChild}>
+              <Link href='/'>
+                <a>
+                  information
+                  <ChevronRightIcon
+                    className={`${cls.arrowButton} ${cls.positionDeliver}`}
+                  />
+                </a>
+              </Link>
+              {/* <ul className={cls.pageChild} onClick={closeMenu}>
                                 <li>
                                     <Link href="/services"><a>Центр справочной информации</a></Link>
                                 </li>
@@ -141,10 +117,10 @@ const [langMenu, setLangMenu] = useState(false);
                                     <Link href="/services"><a>Пресс-релизы</a></Link>
                                 </li>
                             </ul> */}
-                        </li>
-                    </ul>
-                </nav>
-                {/* <nav className={`${cls.menu} ${cls.bottom}`}>
+            </li>
+          </ul>
+        </nav>
+        {/* <nav className={`${cls.menu} ${cls.bottom}`}>
                     <ul >
                         <li onClick={closeMenu}>
                             <Link href="/about"><a>О компании</a></Link>
@@ -167,8 +143,7 @@ const [langMenu, setLangMenu] = useState(false);
                     </ul>
                     
                 </nav> */}
-            </div>
-        </Container>
-    )
+      </div>
+    </Container>
+  )
 }
-       

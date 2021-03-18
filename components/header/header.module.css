@@ -1,6 +1,5 @@
 .header {
-  /* background: #FF534B; */
-  background-color: #0e0d23;
+  background-color: #fff;
   padding: 0;
   margin: 0;
 }
@@ -8,33 +7,37 @@
   z-index: 0;
   display: none;
 }
-
 .nav {
   display: flex;
+  flex-direction: row;
 }
-.logo img {
-  width: 160px;
+.soicalMedia {
+  position: absolute;
+  right: 15%;
+  top: 30px;
+}
+.soicalMedia a {
+  padding-right: 20px;
 }
 .brand {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .list {
   display: flex;
   text-decoration: none;
-  margin-left: 300px;
-  cursor: pointer;
+  margin-left: 210px;
 }
 .list li {
   list-style: none;
   padding-left: 20px;
-  color: #fff;
+  color: #1d1937;
   font-weight: 500;
   font-size: 16px;
   padding: 18px;
   border-bottom: 1px solid transparent;
 }
 .list li:hover {
-  border-bottom: 1px solid #fff;
+  color: #e9463e;
   transition: 0.2s;
 }
 
@@ -44,7 +47,7 @@
     display: none;
   }
   .logo img {
-    height: 35px;
+    width: 98.57px;
     font-size: 30px;
     margin-bottom: 20px;
     padding-bottom: 0 !important;
@@ -57,11 +60,15 @@
     position: absolute;
     right: 10px;
     top: 20px;
-    background: #0e0d23;
-    color: #fff;
+    background: #fff !important;
+    color: #1d1937 !important;
     font-size: 2rem;
     outline: none;
     border: transparent;
+    display: none;
+  }
+  .soicalMedia {
+    display: none;
   }
 }
 @media (max-width: 1255px) {
@@ -77,7 +84,7 @@
 @media (max-width: 1065px) {
   .list {
     font-size: 14px;
-    margin-left: 30px;
+    margin-left: 10px;
   }
 }
 @media (max-width: 990px) {
@@ -85,7 +92,6 @@
     padding-left: 2px;
   }
 }
-
 @media (max-width: 950px) {
   .list {
     display: none;

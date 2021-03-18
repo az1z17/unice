@@ -5,15 +5,6 @@
   display: flex;
   color: #000;
 }
-.containd {
-  width: 100%;
-  display: block;
-  box-sizing: border-box;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 16px;
-  padding-right: 16px;
-}
 .textSide {
   flex: 50%;
   background-color: #e5e5e5;
@@ -48,13 +39,16 @@
   height: 4px;
   background-color: #1d1937;
   position: relative;
+  border: transparent;
   bottom: 15px;
 }
 .landingPage h4 {
   color: #1d1937;
+  margin-top: 0;
   font-style: 18px;
   font-weight: 400;
   line-height: 32px;
+  /* line-height: 131%; */
   margin-bottom: 0;
 }
 
@@ -82,67 +76,58 @@
   display: none;
 }
 /*  */
+
 @media (max-width: 576px) {
-  .bg {
-    flex-direction: column;
-  }
   .phone1 {
     display: none;
   }
   .phone {
     display: block;
   }
+  .bg {
+    flex-direction: column;
+  }
+  .textPage {
+    padding-left: 0;
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
   .imagesSide img {
     right: 0;
     width: 100%;
   }
+  .imagesSide {
+    background-color: #f5cb14;
+  }
   .landingImg {
+    padding-top: 10px;
+    padding-bottom: 20px;
     padding-left: 16px;
     padding-right: 19px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .textPage {
-    padding-top: 0;
-    padding-left: 0;
-  }
-  .text hr {
-    border: transparent;
-    width: 229px;
-    position: relative;
-    right: 35px;
-  }
-  .list {
-    margin-top: 20px;
-    padding-bottom: 40px;
-  }
-  .pd {
-    margin-right: 0;
   }
   .textPage .h1 {
     font-size: 24px;
-    line-height: 40px;
     font-weight: 700;
-  }
-  .textPage h4 {
-    margin-top: 0;
+    line-height: 40px;
   }
 }
 /* @media (max-width: 1400px) {
   .landingImg {
     padding-left: 0;
   }
-  .imagesSide img {
-    right: 50px;
-  }
-  .container {
-    padding-left: 0 !important;
-    padding-right: 0 !;
-  }
-}
-@media (max-width: 1400px) {
   .textPage {
     position: relative;
     right: 100px;
+  }
+  .textSide {
+    flex: 52.5%;
+  }
+  .landingImg img {
+    right: 80px;
+  }
+}
+@media (max-width: 1350px) {
+  .textSide {
+    flex: 50%;
   }
 } */

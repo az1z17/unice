@@ -1,38 +1,31 @@
 .bg {
-  background-color: #fff;
   padding: 0;
-  padding-bottom: 70px;
   margin: 0;
   max-width: 100%;
+  display: flex;
   color: #000;
 }
-.landingPage {
-  display: flex;
-  padding-top: 200px;
+.textSide {
+  flex: 50%;
+  background-color: #1d1937;
+}
+.imagesSide {
+  flex: 50%;
+  background-color: #d75246;
 }
 .textPage {
-  flex: 45%;
-}
-.textPage h6 {
-  margin-top: -4px;
-  letter-spacing: 1px;
-  font-size: 18px;
-  margin-bottom: 40px;
-  text-transform: capitalize;
-  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 200px;
+  padding-left: 300px;
 }
 .textPage .h1 {
-  padding-bottom: 20px;
-  position: relative;
-  margin-bottom: 45px;
-  line-height: 1.4;
-  margin-top: 40px;
-  font-weight: 500;
-  line-height: 38px;
-  font-size: 32px;
-  letter-spacing: 2px;
-  text-align: start;
-  margin-top: -7px;
+  font-weight: 700;
+  line-height: 48px;
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #fff;
 }
 .serviceText h2 {
   font-weight: 300;
@@ -70,135 +63,82 @@
   font-weight: 400;
   font-size: 14px;
 }
-.btnWhite img {
-  width: 172px;
-  height: 55px;
+.pd {
+  margin-right: 20px;
 }
 .landingImg {
-  flex: 45%;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  padding-left: 90px;
 }
-.landingImg img {
-  width: 510px;
-  height: 601px;
+.phone {
+  display: none;
 }
-
 /*  */
 
-@media (max-width: 1240px) {
-  .textPage hr {
-    right: 240px;
-  }
-}
-@media (max-width: 1140px) {
-  .textPage hr {
+@media (max-width: 576px) {
+  .phone1 {
     display: none;
   }
-}
-@media (max-width: 928px) {
-  .landingImg img {
-    width: 450px;
-    height: 550px;
-    position: relative;
-    right: 25px;
+  .phone {
+    display: block;
+  }
+  .bg {
+    display: block;
+    background: linear-gradient(
+      162.53deg,
+      #1d1937 48.23%,
+      #e9463e 48.24%
+    ) !important;
+  }
+  .textPage {
+    padding-top: 0;
+    padding-left: 0;
   }
   .textPage .h1 {
     font-size: 28px;
+    font-weight: 700;
+    line-height: 44px;
+    color: #fff;
+    align-items: center;
   }
-}
-@media (max-width: 832px) {
+  .textSide {
+    background: none !important;
+  }
+  .imagesSide {
+    background: none !important;
+  }
   .landingImg img {
-    width: 370px;
-    height: 470px;
-  }
-  .textPage .h1 {
-    font-size: 26px;
-  }
-}
-@media (max-width: 760px) {
-  .landingPage {
-    display: block;
-    padding-top: 70px;
-  }
-  .banner .h1 {
-    font-size: 32px;
-  }
-  .list {
-    justify-content: center;
-    padding-bottom: 60px;
+    width: 302px;
+    height: 425px;
   }
   .landingImg {
-    margin-bottom: 40px;
-  }
-}
-@media (max-width: 576px) {
-  .textPage {
-    font-size: 15px;
-  }
-  .bg {
-    padding-bottom: 80px;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
   }
   .textPage .h1 {
-    font-size: 27px;
-    line-height: 32px;
-    text-align: center !important;
-    margin-bottom: 0;
-    margin-right: 0;
-    font-weight: 500;
-  }
-  .landingPage {
-    display: block;
+    font-size: 28px;
+    line-height: 44px;
+    padding-top: 20px;
     text-align: center;
-    padding-top: 50px;
   }
-  .landingImg img {
-    text-align: center;
+  .blog {
+    padding-left: 10px;
   }
   .list {
-    display: flex;
-    padding-right: 0;
-    justify-content: center;
-  }
-  .btn img {
-    width: 130px;
-    height: 50px;
-  }
-  .btnBlack img {
-    height: 45px;
-    position: relative;
-    top: 2.5px;
+    margin-top: 0;
+    width: 100%;
+    /* padding-left: 12px; */
+    padding-bottom: 30px;
   }
   .pd {
-    width: 130px;
-    height: 50px;
     margin-right: 10px;
   }
   .list li {
     padding-right: 0;
-  }
-  .textPage h2 {
-    font-size: 10px;
-    font-weight: 400;
-  }
-  .pd {
-    padding-right: 25px !important;
-    margin-left: 30px;
-  }
-  .list a {
-    padding: 15px 20px;
-  }
-  .bg {
-    bottom: 0;
-  }
-  .text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .text hr {
-    display: none;
-  }
-  .serviceText h2 {
-    font-size: 18px;
-    text-align: center !important;
   }
 }
