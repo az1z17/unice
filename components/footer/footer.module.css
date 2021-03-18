@@ -9,8 +9,8 @@
 .textSide {
   padding-top: 40px;
   padding-bottom: 40px;
-  position: relative;
-  right: 40px;
+  /* position: relative;
+  right: 40px; */
 }
 .list {
   display: flex;
@@ -40,7 +40,7 @@
 }
 .payment {
   padding-top: 40px;
-  padding-left: 100px;
+  padding-left: 10%;
 }
 .visa {
   position: relative;

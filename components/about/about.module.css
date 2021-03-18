@@ -2,17 +2,18 @@
   display: flex;
 }
 .imagesSide {
-  flex: 50%;
+  flex: 0 0 50%;
   background-color: #f5cb14;
+  max-width: 50%;
 }
 .imagesSide img {
   position: relative;
-  left: 350px;
+  left: 15%;
   padding-top: 90px;
   padding-bottom: 90px;
 }
 .textSide {
-  flex: 50%;
+  flex: 0 0 50%;
   color: #1d1937;
   background-color: #e5e5e5;
 }
@@ -20,7 +21,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 180px;
+  padding-left: 35%;
   /* align-items: center; */
 }
 .textSide h1 {

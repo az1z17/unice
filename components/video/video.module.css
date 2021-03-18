@@ -6,12 +6,12 @@
   color: #000;
 }
 .textSide {
-  flex: 50%;
+  flex: 0 0 50%;
   background-color: #e5e5e5;
   color: #1d1937;
 }
 .imagesSide {
-  flex: 50%;
+  flex: 0 0 50%;
   background-color: #57b3b1;
 }
 .imagesSide img {
@@ -23,7 +23,7 @@
   flex-direction: column;
   justify-content: center;
   padding-top: 200px;
-  padding-left: 300px;
+  padding-left: 25%;
 }
 .textPage .h1 {
   font-weight: 700;
