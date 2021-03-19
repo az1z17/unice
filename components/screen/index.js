@@ -18,11 +18,11 @@ export default function Screen() {
                 <h1>Выберите звезду</h1>
                 <hr />
               </div>
-              <div>
-                <h3>
+              <div className={cls.text}>
+                <p>
                   Выберите знаменитость, от которой хотите получить личное
                   видеообращение
-                </h3>
+                </p>
               </div>
             </div>
           </Container>

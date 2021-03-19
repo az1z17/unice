@@ -12,14 +12,14 @@ export default function Video() {
             <div className={cls.landingPage}>
               <div className={cls.textPage}>
                 <div className={cls.text}>
-                  <h2 className={cls.h1}>Получите видео </h2>
+                  <h1 className={cls.h2}>Получите видео </h1>
                   <hr />
                 </div>
-                <div>
-                  <h4>
+                <div className={cls.texts}>
+                  <p>
                     Если заказ в течение 7 дней не будет <br /> выполнен - мы
                     вернем деньги обратно на <br /> карту.
-                  </h4>
+                  </p>
                 </div>
               </div>
             </div>

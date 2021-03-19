@@ -6,6 +6,9 @@
   background-color: #f5cb14;
   max-width: 50%;
 }
+.text {
+  width: 363px;
+}
 .imagesSide img {
   position: relative;
   left: 25%;
@@ -22,7 +25,6 @@
   flex-direction: column;
   justify-content: center;
   padding-left: 35%;
-  /* align-items: center; */
 }
 .textSide h1 {
   text-transform: uppercase;
@@ -30,16 +32,12 @@
   font-size: 32px;
   line-height: 48px;
   font-style: bold;
-  line-height: 123%;
-  word-spacing: 4px;
+  margin-bottom: 0;
 }
-.textSide h3 {
+.textSide p {
   font-weight: 400;
-  font-style: 18px;
+  font-size: 18px;
   line-height: 32px;
-  line-height: 131%;
-  word-spacing: 5px;
-  width: 363px;
 }
 .munoText {
   width: 340px;

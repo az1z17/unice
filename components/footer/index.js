@@ -12,7 +12,7 @@ export default function Footer() {
           <div className={cls.row}>
             <div className={cls.textSide}>
               <div className={cls.brand}>
-                <img src='images/Logo.jpg' alt='logoMuno' />
+                <img src='images/Logo.svg' alt='logoMuno' />
               </div>
               <div className={cls.blogs}>
                 <ul className={cls.list}>
@@ -39,34 +39,34 @@ export default function Footer() {
               <div className={cls.icon}>
                 <Link href='/'>
                   <a>
-                    <img src='images/click.png' alt='click' />
+                    <img src='images/click.svg' alt='click' />
                   </a>
                 </Link>
                 <Link href='/'>
                   <a className={cls.visa}>
-                    <img src='images/visa.png' alt='visa' />
+                    <img src='images/visa.svg' alt='visa' />
                   </a>
                 </Link>
                 <Link href='/'>
                   <a>
-                    <img src='images/image 2.png' alt='mastercard' />
+                    <img src='images/image 2.svg' alt='mastercard' />
                   </a>
                 </Link>
                 <Link href='/'>
                   <a>
-                    <img src='images/Layer 2.png' alt='payment' />
+                    <img src='images/Layer 1-2.svg' alt='payment' />
                   </a>
                 </Link>
               </div>
               <div className={cls.socialMedia}>
                 <Link href='/'>
                   <a>
-                    <img src='images/app store (2).png' alt='appstore' />
+                    <img src='images/app store (1).svg' alt='appstore' />
                   </a>
                 </Link>
                 <Link href='/'>
                   <a className={cls.google}>
-                    <img src='images/google play (2).png' alt='google play' />
+                    <img src='images/google play (1).svg' alt='google play' />
                   </a>
                 </Link>
               </div>

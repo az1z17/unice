@@ -40,6 +40,7 @@
   font-size: 32px;
   text-transform: uppercase;
   color: #1d1937;
+  margin-bottom: 0;
 }
 .text {
   width: 305px;
@@ -50,7 +51,7 @@
   position: relative;
   bottom: 15px;
 }
-.landingPage h4 {
+.landingPage p {
   color: #1d1937;
   font-style: 18px;
   font-weight: 400;

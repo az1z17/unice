@@ -30,19 +30,16 @@
   font-size: 32px;
   line-height: 48px;
   font-style: bold;
-  line-height: 123%;
-  word-spacing: 4px;
+  margin-bottom: 0;
 }
-.textSide h3 {
+.text p {
   font-weight: 400;
   font-style: 18px;
   line-height: 32px;
-  line-height: 131%;
-  word-spacing: 5px;
-  width: 363px;
+  padding-bottom: 20px;
 }
 .munoText {
-  width: 340px;
+  width: 363px;
   padding-top: 200px;
 }
 .textSide hr {
@@ -89,7 +86,7 @@
     padding-top: 20px;
   }
   .textSide hr {
-    width: 255px;
+    width: 275px;
     position: relative;
     right: 45px;
     bottom: 10px;

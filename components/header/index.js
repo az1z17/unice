@@ -19,7 +19,7 @@ export default function Header() {
             <div className={cls.brand}>
               <Link href='/'>
                 <a className={cls.logo}>
-                  <img src='images/Logo.jpg' alt='munoLogo' />
+                  <img src='images/Logo.svg' alt='munoLogo' />
                 </a>
               </Link>
             </div>
@@ -40,17 +40,17 @@ export default function Header() {
             <div className={cls.soicalMedia}>
               <Link href='/'>
                 <a>
-                  <img src='images/Vector.png' alt='insatgram' />
+                  <img src='images/instagram.svg' alt='insatgram' />
                 </a>
               </Link>
               <Link href='/'>
                 <a>
-                  <img src='images/tiktok.png' alt='tiktok' />
+                  <img src='images/tiktok.svg' alt='tiktok' />
                 </a>
               </Link>
               <Link href='/'>
                 <a>
-                  <img src='images/facebook.png' alt='facebook' />
+                  <img src='images/facebook.svg' alt='facebook' />
                 </a>
               </Link>
             </div>

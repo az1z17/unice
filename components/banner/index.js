@@ -22,7 +22,7 @@ export default function Banner() {
                       <Link href='/'>
                         <a className={`${cls.btn} ${cls.btnWhite}`}>
                           <img
-                            src='images/app store.png'
+                            src='images/app store.svg'
                             alt='appStore'
                             className={cls.phone1}
                           />
@@ -33,8 +33,8 @@ export default function Banner() {
                       <Link href='/'>
                         <a className={`${cls.btn} ${cls.btnBlack}`}>
                           <img
-                            src='images/google play.png'
-                            alt='googlePlay'
+                            src='images/google play.svg'
+                            alt='googleplay'
                             className={cls.phone1}
                           />
                         </a>
@@ -48,7 +48,7 @@ export default function Banner() {
         </div>
         <div className={cls.imagesSide}>
           <div className={cls.landingImg}>
-            <img src='images/Group.png' alt='phoneApp' />
+            <img src='images/Group (1).png' alt='phoneApp' />
           </div>
           <div className={cls.blog}>
             <ul className={cls.list}>
@@ -56,7 +56,7 @@ export default function Banner() {
                 <Link href='/'>
                   <a className={`${cls.btn} ${cls.btnWhite}`}>
                     <img
-                      src='images/app store (2).png'
+                      src='images/app store (1).svg'
                       alt='appStore'
                       className={cls.phone}
                     />
@@ -67,7 +67,7 @@ export default function Banner() {
                 <Link href='/'>
                   <a className={`${cls.btn} ${cls.btnBlack}`}>
                     <img
-                      src='images/google play (2).png'
+                      src='images/google play (1).svg'
                       alt='googlePlay'
                       className={cls.phone}
                     />

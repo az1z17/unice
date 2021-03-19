@@ -16,10 +16,10 @@ export default function Features() {
                   <hr />
                 </div>
                 <div>
-                  <h4>
+                  <p>
                     Скачайте приложение "Muno" в App Store <br /> или Google
                     Play.
-                  </h4>
+                  </p>
                 </div>
                 <div>
                   <ul className={cls.list}>
@@ -27,12 +27,12 @@ export default function Features() {
                       <Link href='/'>
                         <a className={`${cls.btn} ${cls.btnWhite}`}>
                           <img
-                            src='images/app store (1).png'
+                            src='images/app store (2).svg'
                             alt='appStore'
                             className={cls.phone1}
                           />
                           <img
-                            src='images/app store (2).png'
+                            src='images/app store (2).svg'
                             alt='appStore'
                             className={cls.phone}
                           />
@@ -43,12 +43,12 @@ export default function Features() {
                       <Link href='/'>
                         <a className={`${cls.btn} ${cls.btnBlack}`}>
                           <img
-                            src='images/google play (1).png'
+                            src='images/google play (2).svg'
                             alt='googlePlay'
                             className={cls.phone1}
                           />
                           <img
-                            src='images/google play (2).png'
+                            src='images/google play (2).svg'
                             alt='googlePlay'
                             className={cls.phone}
                           />

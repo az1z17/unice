@@ -18,7 +18,10 @@
   flex-direction: column;
   justify-content: center;
   padding-top: 200px;
-  padding-left: 30%;
+  padding-left: 16%;
+}
+.text {
+  width: 479px;
 }
 .textPage .h1 {
   font-weight: 700;
@@ -26,6 +29,7 @@
   font-size: 36px;
   text-transform: uppercase;
   color: #fff;
+  margin-bottom: 0;
 }
 .serviceText h2 {
   font-weight: 300;
@@ -67,9 +71,13 @@
   margin-right: 20px;
 }
 .landingImg {
-  padding-top: 90px;
+  padding-top: 78px;
   padding-bottom: 90px;
-  padding-left: 90px;
+  padding-left: 86.5px;
+}
+.landingImg img {
+  width: 400px;
+  height: 564px;
 }
 .phone {
   display: none;
@@ -118,7 +126,7 @@
     padding-bottom: 0;
     text-align: center;
     position: relative;
-    bottom: 50px;
+    bottom: 20px;
   }
   .textPage .h1 {
     font-size: 28px;
@@ -140,5 +148,8 @@
   }
   .list li {
     padding-right: 0;
+  }
+  .text {
+    width: 100%;
   }
 }

@@ -7,8 +7,8 @@ export default function SendMassage() {
   return (
     <section id='call'>
       <div className={cls.massage}>
-        <div className={cls.row}>
-          <Container>
+        <Container>
+          <div className={cls.row}>
             <div className={cls.textSide}>
               <div className={cls.usText}>
                 <h1>
@@ -25,21 +25,21 @@ export default function SendMassage() {
                 </Link>
               </h3>
             </div>
-          </Container>
-          <div className={cls.inputs}>
-            <div className={cls.inputSide}>
-              <div className={cls.email}>
-                <input type='email' placeholder='Почта' />
-                <label htmlFor='email'></label>
-              </div>
-              <div className={cls.text}>
-                <input type='text' placeholder='Сообщение' />
-                <label htmlFor='text'></label>
+            <div className={cls.inputs}>
+              <div className={cls.inputSide}>
+                <div className={cls.email}>
+                  <input type='email' placeholder='Почта' />
+                  <label htmlFor='email'></label>
+                </div>
+                <div className={cls.text}>
+                  <input type='text' placeholder='Сообщение' />
+                  <label htmlFor='text'></label>
+                </div>
+                <button className={cls.btn}>Отправить</button>
               </div>
             </div>
-            <button className={cls.btn}>Отправить</button>
           </div>
-        </div>
+        </Container>
       </div>
     </section>
   )

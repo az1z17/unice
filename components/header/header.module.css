@@ -31,8 +31,9 @@
   list-style: none;
   padding-left: 20px;
   color: #1d1937;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
+  line-height: 100%;
   padding: 18px;
   border-bottom: 1px solid transparent;
 }
