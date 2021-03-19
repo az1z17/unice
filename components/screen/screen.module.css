@@ -8,7 +8,7 @@
 }
 .imagesSide img {
   position: relative;
-  left: 17%;
+  left: 25%;
   padding-top: 90px;
   padding-bottom: 90px;
 }
@@ -69,7 +69,7 @@
     padding-left: 0;
   }
   .imagesSide img {
-    left: 0;
+    left: 0 !important;
     width: 100%;
     padding-top: 0;
     padding-bottom: 0;
@@ -80,6 +80,7 @@
     background-color: #e9463e;
     padding-left: 16px;
     padding-right: 19px;
+    max-width: 100%;
   }
   .textSide h1 {
     font-size: 24px;
@@ -101,11 +102,8 @@
     padding-bottom: 20px;
   }
 }
-/* @media (max-width: 1400px) {
+@media (max-width: 1280px) {
   .imagesSide img {
-    left: 150px;
+    left: 17%;
   }
-  .imagesSide {
-    flex: 52.5%;
-  }
-} */
+}
