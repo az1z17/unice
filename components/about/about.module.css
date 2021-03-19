@@ -5,6 +5,8 @@
   flex: 0 0 50%;
   background-color: #f5cb14;
   max-width: 50%;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
 .text {
   width: 363px;
@@ -12,8 +14,8 @@
 .imagesSide img {
   position: relative;
   left: 25%;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  width: 656px;
+  height: 595px;
 }
 .textSide {
   flex: 0 0 50%;
@@ -101,8 +103,8 @@
     padding-left: 16px;
   }
 }
-@media (max-width: 1400px) {
+@media (max-width: 1280px) {
   .imagesSide img {
-    left: 17%;
+    left: 16%;
   }
 }

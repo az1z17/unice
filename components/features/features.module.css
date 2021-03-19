@@ -25,7 +25,8 @@
 }
 .imagesSide img {
   position: relative;
-  right: 180px;
+  right: 25%;
+  width: 656px;
 }
 .textPage {
   display: flex;
@@ -129,21 +130,8 @@
     margin-top: 0;
   }
 }
-/* @media (max-width: 1400px) {
-  .landingImg {
-    padding-left: 0;
-  }
-  .imagesSide img {
-    right: 50px;
-  }
-  .container {
-    padding-left: 0 !important;
-    padding-right: 0 !;
+@media (max-width: 1280px) {
+  .landingImg img {
+    right: 30%;
   }
 }
-@media (max-width: 1400px) {
-  .textPage {
-    position: relative;
-    right: 100px;
-  }
-} */

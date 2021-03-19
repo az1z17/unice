@@ -64,7 +64,7 @@ export default function Features() {
         <div className={cls.imagesSide}>
           <div className={cls.landingImg}>
             <img
-              src='images/phones (1).png'
+              src='images/phones (5).png'
               alt='phoneApp'
               className={cls.phone1}
             />

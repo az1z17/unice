@@ -25,14 +25,14 @@ export default function Header() {
             </div>
             <div className={cls.blogs}>
               <ul className={cls.list}>
-                <AnchorLink href='#banner'>
-                  <li>Как это работает?</li>
-                </AnchorLink>
                 <AnchorLink href='#about'>
-                  <li>Знаменитостям</li>
+                  <li>Что такое Muno? </li>
                 </AnchorLink>
                 <AnchorLink href='#whiteBanner'>
-                  <li>Вопросы и ответы</li>
+                  <li>Как это работает?</li>
+                </AnchorLink>
+                <AnchorLink href='#call'>
+                  <li>Свяжитесь с нами</li>
                 </AnchorLink>
               </ul>
             </div>

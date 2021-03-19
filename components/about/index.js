@@ -8,7 +8,7 @@ export default function About() {
     <section id='about'>
       <div className={cls.about}>
         <div className={cls.imagesSide}>
-          <img src='images/phones.png' alt='phone' className={cls.phone1} />
+          <img src='images/phones (4).png' alt='phone' className={cls.phone1} />
           <img src='images/image.png' alt='phone' className={cls.phone} />
         </div>
         <div className={cls.textSide}>

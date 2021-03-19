@@ -28,7 +28,7 @@ export default function Video() {
         <div className={cls.imagesSide}>
           <div className={cls.landingImg}>
             <img
-              src='images/phones (3).png'
+              src='images/phones (7).png'
               alt='phoneApp'
               className={cls.phone1}
             />
