@@ -95,7 +95,7 @@
     display: block;
   }
   .imagesSide img {
-    right: 0;
+    right: 0 !important;
     width: 100%;
   }
   .landingImg {

@@ -69,7 +69,7 @@ export default function Features() {
               className={cls.phone1}
             />
             <img
-              src='images/image (1).png'
+              src='images/image (5).png'
               alt='phoneApp'
               className={cls.phone}
             />

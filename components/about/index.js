@@ -9,7 +9,7 @@ export default function About() {
       <div className={cls.about}>
         <div className={cls.imagesSide}>
           <img src='images/phones (4).png' alt='phone' className={cls.phone1} />
-          <img src='images/image.png' alt='phone' className={cls.phone} />
+          <img src='images/image (4).png' alt='phone' className={cls.phone} />
         </div>
         <div className={cls.textSide}>
           <div className={cls.row}>

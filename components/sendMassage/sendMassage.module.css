@@ -90,6 +90,9 @@
 .btn:active {
   transform: scale(0.9);
 }
+.textSide a:hover {
+  text-decoration: underline;
+}
 @media (max-width: 576px) {
   .row {
     display: block;
@@ -103,18 +106,17 @@
     font-weight: 400;
     line-height: 27px;
   }
+  .inputSide {
+    padding-left: 0;
+    padding-right: 0;
+  }
   .inputs {
     right: 0;
   }
   .email {
     padding-top: 0;
-    padding-left: 16px;
-    padding-right: 19px;
   }
-  .text {
-    padding-left: 16px;
-    padding-right: 19px;
-  }
+
   .usText {
     width: 274px;
   }
@@ -139,7 +141,6 @@
     padding-bottom: 0;
   }
   .btn {
-    margin-left: 16px;
     margin-top: 20px;
     margin-bottom: 30px;
     outline: none;

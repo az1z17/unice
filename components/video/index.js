@@ -33,7 +33,7 @@ export default function Video() {
               className={cls.phone1}
             />
             <img
-              src='images/image (3).png'
+              src='images/image (7).png'
               alt='phoneApp'
               className={cls.phone}
             />

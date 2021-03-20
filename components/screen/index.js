@@ -8,8 +8,8 @@ export default function Screen() {
     <section id='screen'>
       <div className={cls.about}>
         <div className={cls.imagesSide}>
-          <img src='images/phones (2).png' alt='phone' className={cls.phone1} />
-          <img src='images/image (2).png' alt='phone' className={cls.phone} />
+          <img src='images/phones (4).png' alt='phone' className={cls.phone1} />
+          <img src='images/image (6).png' alt='phone' className={cls.phone} />
         </div>
         <div className={cls.textSide}>
           <Container>
