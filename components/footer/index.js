@@ -16,11 +16,11 @@ export default function Footer() {
               </div>
               <div className={cls.blogs}>
                 <ul className={cls.list}>
-                  <AnchorLink href='#whiteBanner'>
-                    <li>Как это работает?</li>
-                  </AnchorLink>
                   <AnchorLink href='#about'>
                     <li>Что такое Muno? </li>
+                  </AnchorLink>
+                  <AnchorLink href='#whiteBanner'>
+                    <li>Как это работает?</li>
                   </AnchorLink>
                   <AnchorLink href='#screen'>
                     <li>Правила сервиса</li>

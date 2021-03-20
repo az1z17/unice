@@ -21,9 +21,9 @@ export default function SendMassage() {
                 или пожелания <br className={cls.br} /> Свяжитесь с нами по
                 номеру <a href='tel:+99871 200 54 44 '>+99871 200 54 44 </a>
                 или по <br />
-                <Link href='/'>
-                  <a>Телеграм t.me/munouz</a>
-                </Link>
+                <a target='_blank' href='https://t.me/munouz'>
+                  Телеграм t.me/munouz
+                </a>
               </h3>
             </div>
             <div className={cls.inputs}>

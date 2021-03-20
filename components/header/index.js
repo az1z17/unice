@@ -14,7 +14,7 @@ export default function Header() {
         <Container>
           <nav className={cls.nav}>
             <button className={cls.hamburgerIcon} onClick={() => setMenu(true)}>
-              <MenuIcon />
+              <MenuIcon className={cls.burgerMenu} />
             </button>
             <div className={cls.brand}>
               <Link href='/'>

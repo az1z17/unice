@@ -14,6 +14,7 @@ export default function ResponsiveMenu({ closeMenu }) {
       <div className={cls.mobileBlock}>
         <div className={cls.header}>
           <div className={cls.close} onClick={closeMenu}>
+            <img src='images/Logo.svg' alt='munoLogo' />
             <CloseIcon className={cls.closesIcon} />
           </div>
         </div>
@@ -28,50 +29,16 @@ export default function ResponsiveMenu({ closeMenu }) {
                   />
                 </a>
               </Link>
-              {/* <ul className={cls.pageChild} onClick={closeMenu}>
-                                <li className={cls.currentPage}>
-                                    <Link href="/services"><a>Экспресс-доставка</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Доставка грузов</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Доставка документов</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>По городам</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Популярные направления</a></Link>
-                                </li>
-                            </ul> */}
             </li>
             <li className={cls.hasChild}>
               <Link href='/'>
                 <a>
-                  about
+                  about us
                   <ChevronRightIcon
                     className={`${cls.arrowButton} ${cls.positionDeliver}`}
                   />
                 </a>
               </Link>
-              {/* <ul className={cls.pageChild} onClick={closeMenu}>
-                                <li>
-                                    <Link href="/services"><a>Экспресс-доставка</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Импорт грузов</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Популярные направления</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Доставка тяжелых грузов</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Экспорт для интернет-магазинов</a></Link>
-                                </li>
-                            </ul> */}
             </li>
             <li className={cls.hasChild}>
               <Link href='/'>
@@ -82,21 +49,8 @@ export default function ResponsiveMenu({ closeMenu }) {
                   />
                 </a>
               </Link>
-              {/* <ul className={cls.pageChild} onClick={closeMenu} >
-                                <li>
-                                    <Link href="/services"><a>Дополнительные услуги</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Дополнительные сборы</a></Link>
-                                </li>
-                            </ul> */}
             </li>
-            {/* <li onClick={closeMenu}>
-                            <Link href="/services"><a>Таможенное декларирование</a></Link>
-                        </li>
-                        <li onClick={closeMenu}>
-                            <Link href="/services"><a>Условия доставки</a></Link>
-                        </li> */}
+
             <li className={cls.hasChild}>
               <Link href='/'>
                 <a>
@@ -106,43 +60,27 @@ export default function ResponsiveMenu({ closeMenu }) {
                   />
                 </a>
               </Link>
-              {/* <ul className={cls.pageChild} onClick={closeMenu}>
-                                <li>
-                                    <Link href="/services"><a>Центр справочной информации</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Журнал «Доставлено DHL»</a></Link>
-                                </li>
-                                <li>
-                                    <Link href="/services"><a>Пресс-релизы</a></Link>
-                                </li>
-                            </ul> */}
             </li>
           </ul>
         </nav>
-        {/* <nav className={`${cls.menu} ${cls.bottom}`}>
-                    <ul >
-                        <li onClick={closeMenu}>
-                            <Link href="/about"><a>О компании</a></Link>
-                        </li>
-                        <li onClick={closeMenu}>
-                            <Link href="/calculator"><a>Калькулятор</a></Link>
-                        </li>
-                        <li onClick={closeMenu}>
-                            <Link href="/tracking"><a>Отслеживание</a></Link>
-                        </li>
-                        <li onClick={closeMenu}>
-                            <Link href="/tariffs"><a>Тарифы</a></Link>
-                        </li>
-                        <li onClick={closeMenu}>
-                            <Link href="/offers-single"><a>Спецпредложения</a></Link>
-                        </li>
-                        <li onClick={closeMenu}>
-                            <Link href="/contacts"><a>Контакты</a></Link>
-                        </li>
-                    </ul>
-                    
-                </nav> */}
+
+        <div className={cls.icons}>
+          <Link href='/'>
+            <a>
+              <img src='images/instagram.svg' alt='insatgram' />
+            </a>
+          </Link>
+          <Link href='/'>
+            <a>
+              <img src='images/tiktok.svg' alt='tiktok' />
+            </a>
+          </Link>
+          <Link href='/'>
+            <a>
+              <img src='images/facebook.svg' alt='facebook' />
+            </a>
+          </Link>
+        </div>
       </div>
     </Container>
   )

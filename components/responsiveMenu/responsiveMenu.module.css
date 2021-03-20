@@ -1,31 +1,28 @@
 .mobileBlock {
   display: none;
-  background: #0e0d23 !important;
+  background: #fff !important;
   opacity: 1;
   position: fixed;
   z-index: 9999;
+  color: #1d1937;
 }
-.nav ul li {
-  border-bottom: 1px solid #eeeff3;
-}
+
 .pageChild li {
-  border-top: 1px solid #eeeff3;
   border-bottom: none;
   margin: 0;
-  font-size: 12px;
+  font-size: 18px;
 }
 .close {
-  position: relative;
-  bottom: 4px;
+  padding-top: 20px;
   color: #fff;
+  width: 100%;
 }
 .closesIcon {
-  color: #fff;
-  position: relative;
-  top: 4px;
-  font-weight: 100;
+  color: #000;
+  position: absolute;
+  font-weight: 400;
   right: 5px;
-  font-size: 18px;
+  font-size: 22px;
 }
 .hasChild:hover .pageChild {
   visibility: visible;
@@ -79,13 +76,11 @@
   border: none;
   background: transparent;
 }
-.top {
-  background: #0e0d23;
-  color: #fff;
-}
+
 .top ul {
   display: inline;
-  font-size: 13px;
+  font-size: 18px;
+  font-weight: 500;
   padding: 50px 0 40px;
 }
 .top li {
@@ -126,8 +121,6 @@
     padding: 10px 20px;
     font-size: 13px;
     font-weight: 400;
-    color: #111;
-    background: #0e0d23;
   }
   .mobileBlock {
     transform: translateX(0);
@@ -142,71 +135,19 @@
     overflow-x: hidden;
     overflow-y: auto;
     font-weight: 500;
-    background: #fff;
-    color: #111;
     transition: transform 0.4s;
   }
   .siteHeader {
     display: flex;
   }
-  .langItem img {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+  .nav {
+    padding-top: 150px !important;
   }
-  .langName {
-    margin-left: 10px;
-    margin-top: 3px;
+  .icons {
+    padding-top: 200px;
   }
-  .lang button {
-    outline: none;
-    background: transparent;
-    border: none;
-  }
-  .itemLang img {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-  }
-  .langBritish {
-    position: relative;
-    top: 5px;
-    margin-bottom: 0;
-  }
-
-  .langArrow {
-    color: #666;
-    font-size: 15px;
-    position: relative;
-    left: 10px;
-    top: 2px;
-  }
-  .langItemList {
-    color: #666;
-    font-size: 15px;
-    position: relative;
-    left: 10px;
-    top: 2px;
-  }
-  .langItemName {
-    margin-left: 10px;
-    margin-top: 3px;
-  }
-  .langList {
-    visibility: hidden;
-    position: absolute;
-    left: 5%;
-    top: 50px;
-    background: #fff;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-  }
-  .show {
-    visibility: visible;
-  }
-  .langItemList {
-    padding-bottom: 15px;
+  .icons a {
+    padding-left: 20px;
   }
 }
 
@@ -225,7 +166,7 @@
     font-size: 13px;
     font-weight: 400;
     color: #111;
-    background: #0e0d23;
+    background: #fff;
   }
   .mobileBlock {
     transform: translateX(0);
@@ -246,64 +187,5 @@
   }
   .siteHeader {
     display: flex;
-  }
-  .langItem img {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-  }
-  .langName {
-    margin-left: 10px;
-    margin-top: 3px;
-  }
-  .lang button {
-    outline: none;
-    background: transparent;
-    border: none;
-  }
-  .itemLang img {
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-  }
-  .langBritish {
-    position: relative;
-    top: 5px;
-    margin-bottom: 0;
-  }
-
-  .langArrow {
-    color: #666;
-    font-size: 15px;
-    position: relative;
-    left: 10px;
-    top: 2px;
-  }
-  .langItemList {
-    color: #666;
-    font-size: 15px;
-    position: relative;
-    left: 10px;
-    top: 2px;
-  }
-  .langItemName {
-    margin-left: 10px;
-    margin-top: 3px;
-  }
-  .langList {
-    visibility: hidden;
-    position: absolute;
-    left: 5%;
-    top: 50px;
-    background: #fff;
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-right: 10px;
-  }
-  .show {
-    visibility: visible;
-  }
-  .langItemList {
-    padding-bottom: 15px;
   }
 }

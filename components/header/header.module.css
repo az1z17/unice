@@ -54,6 +54,11 @@
     margin-bottom: 20px;
     padding-bottom: 0 !important;
   }
+
+  .burgerMenu {
+    position: relative;
+    left: 10px;
+  }
   .logo {
     text-align: center;
   }
