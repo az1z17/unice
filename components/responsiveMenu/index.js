@@ -23,7 +23,7 @@ export default function ResponsiveMenu({ closeMenu }) {
             <li className={cls.hasChild}>
               <Link href='/'>
                 <a>
-                  HOME
+                  Что такое Muno?
                   <ChevronRightIcon
                     className={`${cls.arrowButton} ${cls.positionArrow}`}
                   />
@@ -33,7 +33,7 @@ export default function ResponsiveMenu({ closeMenu }) {
             <li className={cls.hasChild}>
               <Link href='/'>
                 <a>
-                  about us
+                  Как это работает?
                   <ChevronRightIcon
                     className={`${cls.arrowButton} ${cls.positionDeliver}`}
                   />
@@ -43,18 +43,7 @@ export default function ResponsiveMenu({ closeMenu }) {
             <li className={cls.hasChild}>
               <Link href='/'>
                 <a>
-                  contact us
-                  <ChevronRightIcon
-                    className={`${cls.arrowButton} ${cls.positionDeliver}`}
-                  />
-                </a>
-              </Link>
-            </li>
-
-            <li className={cls.hasChild}>
-              <Link href='/'>
-                <a>
-                  information
+                  Свяжитесь с нами
                   <ChevronRightIcon
                     className={`${cls.arrowButton} ${cls.positionDeliver}`}
                   />
