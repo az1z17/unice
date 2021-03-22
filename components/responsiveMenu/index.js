@@ -51,25 +51,8 @@ export default function ResponsiveMenu({ closeMenu }) {
               </Link>
             </li>
           </ul>
+          <button className={cls.btn}>Заказать видео</button>
         </nav>
-
-        <div className={cls.icons}>
-          <Link href='/'>
-            <a>
-              <img src='images/instagram.svg' alt='insatgram' />
-            </a>
-          </Link>
-          <Link href='/'>
-            <a>
-              <img src='images/tiktok.svg' alt='tiktok' />
-            </a>
-          </Link>
-          <Link href='/'>
-            <a>
-              <img src='images/facebook.svg' alt='facebook' />
-            </a>
-          </Link>
-        </div>
       </div>
     </Container>
   )
