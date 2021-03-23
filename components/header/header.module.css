@@ -59,7 +59,7 @@
   }
   .burgerMenu {
     position: absolute;
-    right: 0;
+    right: 9px;
     top: 2px;
   }
   .logo {
