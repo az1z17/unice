@@ -20,9 +20,9 @@ export default function SendMassage() {
                 Если у Вас возникла проблема с приложением, <br /> есть вопросы
                 или пожелания <br className={cls.br} /> Свяжитесь с нами по
                 номеру <a href='tel:+99871 200 54 44 '>+99871 200 54 44 </a>
-                или по <br />
+                или по Телеграм {''}
                 <a target='_blank' href='https://t.me/munouz'>
-                  Телеграм t.me/munouz
+                  t.me/munouz
                 </a>
               </h3>
             </div>

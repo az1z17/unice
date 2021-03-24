@@ -13,41 +13,29 @@ export default function ResponsiveMenu({ closeMenu }) {
     <Container>
       <div className={cls.mobileBlock}>
         <div className={cls.header}>
-          <div className={cls.close} onClick={closeMenu}>
+          <div className={cls.close}>
             <img src='images/Logo.svg' alt='munoLogo' />
-            <CloseIcon className={cls.closesIcon} />
+            <button className={cls.btn1} onClick={closeMenu}>
+              {' '}
+              <CloseIcon className={cls.closesIcon} />
+            </button>
           </div>
         </div>
         <nav className={`${cls.menu} ${cls.top} ${cls.nav}`}>
           <ul className={cls.navItem}>
             <li className={cls.hasChild}>
               <Link href='/'>
-                <a>
-                  Что такое Muno?
-                  <ChevronRightIcon
-                    className={`${cls.arrowButton} ${cls.positionArrow}`}
-                  />
-                </a>
+                <a>Что такое Muno?</a>
               </Link>
             </li>
             <li className={cls.hasChild}>
               <Link href='/'>
-                <a>
-                  Как это работает?
-                  <ChevronRightIcon
-                    className={`${cls.arrowButton} ${cls.positionDeliver}`}
-                  />
-                </a>
+                <a>Как это работает?</a>
               </Link>
             </li>
             <li className={cls.hasChild}>
               <Link href='/'>
-                <a>
-                  Свяжитесь с нами
-                  <ChevronRightIcon
-                    className={`${cls.arrowButton} ${cls.positionDeliver}`}
-                  />
-                </a>
+                <a>Свяжитесь с нами</a>
               </Link>
             </li>
           </ul>

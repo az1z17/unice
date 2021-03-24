@@ -17,13 +17,6 @@
   color: #fff;
   width: 100%;
 }
-.closesIcon {
-  color: #000;
-  position: absolute;
-  font-weight: 400;
-  right: 9px;
-  font-size: 22px;
-}
 .hasChild:hover .pageChild {
   visibility: visible;
   z-index: 100;
@@ -62,20 +55,6 @@
 .pageChild li:last-child {
   margin-bottom: 0;
 }
-.hasChild svg {
-  position: absolute;
-  right: 5px;
-  margin-left: 15px;
-  font-size: 15px;
-  color: #666;
-  cursor: pointer;
-  display: none;
-}
-.arrowButton {
-  outline: none;
-  border: none;
-  background: transparent;
-}
 
 .top ul {
   display: inline;
@@ -111,6 +90,21 @@
 @media (max-width: 576px) {
   .close img {
     width: 98.57px;
+  }
+  .btn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 24px;
+    width: 24px;
+    right: 10px;
+    top: 20px;
+    background: #fff !important;
+    color: #1d1937 !important;
+    font-size: 2rem;
+    outline: none;
+    border: transparent;
   }
   .close {
     padding-left: 16px;
