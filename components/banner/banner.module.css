@@ -4,6 +4,7 @@
   max-width: 100%;
   display: flex;
   color: #000;
+  padding-top: 60px;
 }
 .textSide {
   flex: 0 0 50%;

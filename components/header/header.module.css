@@ -2,7 +2,9 @@
   background-color: #fff;
   padding: 0;
   margin: 0;
-  position: sticky;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
 }
 .hamburgerIcon {
   z-index: 0;
