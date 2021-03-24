@@ -91,6 +91,9 @@
   .close img {
     width: 98.57px;
   }
+  .mobileBlock {
+    z-index: 99999;
+  }
   .btn1 {
     display: flex;
     justify-content: center;
