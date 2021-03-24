@@ -24,22 +24,26 @@ export default function ResponsiveMenu({ closeMenu }) {
         <nav className={`${cls.menu} ${cls.top} ${cls.nav}`}>
           <ul className={cls.navItem}>
             <li className={cls.hasChild}>
-              <Link href='/'>
-                <a>Что такое Muno?</a>
+              <Link href='#about'>
+                <a onClick={closeMenu}>Что такое Muno?</a>
               </Link>
             </li>
             <li className={cls.hasChild}>
-              <Link href='/'>
-                <a>Как это работает?</a>
+              <Link href='#whiteBanner'>
+                <a onClick={closeMenu}>Как это работает?</a>
               </Link>
             </li>
             <li className={cls.hasChild}>
-              <Link href='/'>
-                <a>Свяжитесь с нами</a>
+              <Link href='#call'>
+                <a onClick={closeMenu}>Свяжитесь с нами</a>
               </Link>
             </li>
           </ul>
-          <button className={cls.btn}>Заказать видео</button>
+          <button className={cls.btn}>
+            <a href='https://t.me/munouz' onClick={closeMenu} target='_blank'>
+              Заказать видео
+            </a>
+          </button>
         </nav>
       </div>
     </Container>
