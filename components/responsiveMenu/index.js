@@ -2,12 +2,10 @@ import { Container } from '@material-ui/core'
 import React, { useState } from 'react'
 import cls from './responsiveMenu.module.css'
 import Link from 'next/link'
-import ChevronRightIcon from '@material-ui/icons/ChevronRight'
 import CloseIcon from '@material-ui/icons/Close'
-import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 
 export default function ResponsiveMenu({ closeMenu }) {
-  const [langMenu, setLangMenu] = useState(false)
+  const [langMenu] = useState(false)
 
   return (
     <Container>
